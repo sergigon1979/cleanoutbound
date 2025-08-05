@@ -1,0 +1,7 @@
+site_name: Clean Outbound
+
+theme:
+  name: material
+
+extra_css:
+  - stylesheets/extra.css
