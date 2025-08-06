@@ -2,11 +2,12 @@ site_name: Clean Outbound
 
 theme:
   name: material
+  logo: null 
 
 extra_css:
   - stylesheets/extra.css
   
 nav:
-  - Home: index.md
+  - "": index.md
   - Posts:
       - "Outbound is dirty": posts/outbound-is-dirty.md
