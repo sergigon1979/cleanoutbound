@@ -1,5 +1,7 @@
 # Outbound is dirty
 
+<span style="font-size: 0.65rem; color: #888;">Published: August 7, 2025</span>
+
 <!--
 ---
 title: "Outbound is dirty"

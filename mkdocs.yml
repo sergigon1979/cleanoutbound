@@ -4,6 +4,8 @@ theme:
   name: material
   logo: /assets/portrait_logo.png
   favicon: /assets/portrait_logo.png
+  features:
+   - navigation.expand
 
 extra_css:
   - stylesheets/extra.css
