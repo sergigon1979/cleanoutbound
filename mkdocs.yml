@@ -1,8 +1,9 @@
-site_name: Clean Outbound
+site_name: "CleanOutbound.com"
 
 theme:
   name: material
-  logo: null 
+  logo: /assets/portrait_logo.png
+  favicon: /assets/portrait_logo.png
 
 extra_css:
   - stylesheets/extra.css
