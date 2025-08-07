@@ -15,6 +15,10 @@ Sales, as a human occupation, is essential and fundamentally good. At its core, 
 
 The world simply cannot function without sales.
 
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="../../assets/tragedy_of_the_commons.png" alt="Cartoon illustrating the tragedy of the commons in outbound sales" style="max-width: 100%; height: auto;">
+</div>
+
 And yet, sales often ends up dirty, and cold outbound sales is particularly so. It generates pollution in the same way a chemical plant produces waste. To manufacture a profitable compound, the factory inevitably creates byproducts. When that waste is discharged into a river, the cost isn’t borne by the factory but passed downstream to communities living beside it.
 
 Economists call this a **negative externality**: a cost imposed on third parties who neither chose nor benefit from the transaction.
@@ -28,10 +32,6 @@ Companies evaluate outbound programs using familiar metrics: the volume of outre
 Those costs are typically calculated as the sum of data acquisition and validation, sales tooling (CRM, sequencing software, automation), outreach efforts (calls, emails, meetings), sales team compensation, marketing collateral, and, to a lesser extent, overhead like compliance and operations.
 
 What’s never tallied in this equation are the costs outbound pushes onto everyone else. But if they were factored in—using the same cold numerical logic we apply to leads, deals, and returns—outbound might be designed very differently.
-
-<div style="text-align: center; margin: 2rem 0;">
-  <img src="../../assets/tragedy_of_the_commons.png" alt="Cartoon illustrating the tragedy of the commons in outbound sales" style="max-width: 100%; height: auto;">
-</div>
 
 There’s another dynamic at play in cold outbound, one that mirrors a well-known dilemma from environmental science.
 
