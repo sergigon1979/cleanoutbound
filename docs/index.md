@@ -9,10 +9,14 @@ hide:
     CleanOutbound.com
   </div>
   <div style="display: flex; align-items: center; justify-content: center; gap: 0.75rem;">
-    <img src="assets/portrait_logo.png" alt="Sergio González" style="width: 56px; height: 56px; border-radius: 50%; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+    <a href="https://www.linkedin.com/in/sgonzalezalonso/" target="_blank" rel="noopener">
+      <img src="assets/portrait_logo.png" alt="Sergio González"
+           style="width: 56px; height: 56px; border-radius: 50%; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+    </a>
     <span style="font-weight: 500; font-size: 0.9rem;">By Sergio González</span>
   </div>
 </div>
+
 
 <div class="hero">
 
