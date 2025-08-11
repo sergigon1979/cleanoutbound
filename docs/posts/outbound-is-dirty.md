@@ -1,17 +1,16 @@
-# Outbound is dirty
-
-<span style="font-size: 0.65rem; color: #888;">Published: August 7, 2025</span>
-
-<!--
 ---
 title: "Outbound is dirty"
 description: "Cold outbound sales creates value—but also invisible costs. This essay explores the externalities, moral tradeoffs, and systemic challenges baked into outbound, and asks whether it can be redesigned from first principles."
 date: 2025-08-07
 tags: [sales, ethics, outbound, externalities, attention, systems]
+toc: false
 ---
--->
+
+# Outbound is dirty
 
 **Modern cold outbound sales is a dirty business. But it doesn't have to be.**
+
+<span style="font-size: 0.65rem; color: #888;">Published: August 7, 2025</span>
 
 Sales, as a human occupation, is essential and fundamentally good. At its core, sales is about helping people discover, understand, and ultimately buy the products or solutions a company offers. The very fact that customers willingly complete these transactions is proof enough that these products deliver real value. Seen this way, sales acts as a lubricant, a catalyst: it shortens the gap between potential value—the promise of what the product could do—and realized value, which the customer experiences once they purchase and use it.
 
