@@ -69,7 +69,7 @@ In Q1 2025, consumers in North America and Europe were hit with 12.5 billion spa
 
 So it’s no surprise that 94 % of European consumers believe unidentified calls are likely spam or fraudulent (Hiya/GSMA, 2022). The share of adults who usually answer unknown numbers has collapsed over the last decade — to 19 % in the U.S. (Pew, 2020) and 28 % in the UK (YouGov, 2022) — and the real surprise is that those figures aren’t even lower.
 
-Each unwanted call trains us to be quicker to hang up—or never pick up—on the next one.. The damage compounds, and over time answer rates fall and conversion follows. No amount of brand spend buys that back. The irony is that companies can spend millions polishing their brand and, in the same quarter, grind it down with tactics that make people less likely to ever pick up again.
+Each unwanted call trains us to be quicker to hang up—or never pick up—on the next one. The damage compounds, and over time answer rates fall and conversion follows. No amount of brand spend buys that back. The irony is that companies can spend millions polishing their brand and, in the same quarter, grind it down with tactics that make people less likely to ever pick up again.
 
 **Just hang up the phone**
 
