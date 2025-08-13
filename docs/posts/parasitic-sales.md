@@ -63,6 +63,14 @@ What I find most irritating is that the people who sign off on these tactics wil
 
 Your frustration has nowhere to go. You hang up, but the system remains untouched. And each call makes you fractionally quicker to cut the next one short.
 
+**The numbers**
+
+In Q1 2025, consumers in North America and Europe were hit with 12.5 billion spam and fraud calls; about 137 million a day. Spam now makes up 44 % of unidentified calls in France, 42 % in Spain, and 22 % in the U.S. (Hiya, Q1 2025; Q3 2023).
+
+So it’s no surprise that 94 % of European consumers believe unidentified calls are likely spam or fraudulent (Hiya/GSMA, 2022). The share of adults who usually answer unknown numbers has collapsed over the last decade — to 19 % in the U.S. (Pew, 2020) and 28 % in the UK (YouGov, 2022) — and the real surprise is that those figures aren’t even lower.
+
+Each unwanted call trains us to be quicker to hang up—or never pick up—on the next one.. The damage compounds, and over time answer rates fall and conversion follows. No amount of brand spend buys that back. The irony is that companies can spend millions polishing their brand and, in the same quarter, grind it down with tactics that make people less likely to ever pick up again.
+
 **Just hang up the phone**
 
 If a reed warbler could suddenly understand the cuckoo’s trick, it wouldn’t hesitate. It would shove the cuckoo chick over the edge the moment it recognised the threat.
@@ -71,8 +79,6 @@ The chick itself isn’t the villain, but it’s still part of a parasitic syste
 
 Once you spot the pattern, hanging up is not only perfectly reasonable — it’s an act of self-protection. Your attention and goodwill are finite, and the system is designed to spend them. You’re under no obligation to feed it.
 
-**Here’s what I can’t square**
 
-To the people who design these systems: if ethics don’t move you, try economics. How can a company spend millions polishing its brand and, in the same quarter, grind it down with tactics that make people less likely to ever pick up again?
 
-Every unwanted call trains us to disengage faster — not just from you, but from anyone who sounds like you. **That’s conversion today at the cost of trust tomorrow.**
+
