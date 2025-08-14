@@ -6,6 +6,7 @@ theme:
   favicon: /assets/portrait_logo.png
   features:
    - navigation.expand
+  
 
 extra_css:
   - stylesheets/extra.css
@@ -15,4 +16,5 @@ nav:
   - Posts:
       - "Outbound is dirty": posts/outbound-is-dirty.md
       - "Parasitic Sales": posts/parasitic-sales.md
+      - "Degrees of Clean": posts/degrees-of-clean.md 
 
