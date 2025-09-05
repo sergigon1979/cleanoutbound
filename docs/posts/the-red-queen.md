@@ -43,34 +43,31 @@ Carroll himself admired the Dover cliffs on his Channel crossings. He could neve
 
 Fast forward to May 3, 1978.
 
-The digital ecosystem was still soft-shelled prey. ARPANET was a high-trust community of scientists and researchers; its defenses were cultural, not technical. The assumption was that nobody would use the network for commerce.
+Gary Thuerk, a marketer at Digital Equipment Corporation, decided to announce a product demo. He did it by sending a single message to every ARPANET address he could find on the West Coast—nearly four hundred of them. The network’s mail protocol, never designed for such a blast, promptly choked. The recipient list was so long it overflowed the header and spilled down into the body of the message itself, a clumsy, unavoidable catalog of every person who had just been spammed.
 
-Gary Thuerk, a marketer at Digital Equipment Corporation, spotted the opening. His prey was undefended.
+In that tight-knit digital ecosystem, the message landed like a bite on unarmored flesh.
 
-He blasted an invitation for a new DEC computer to nearly 400 recipients. The message was clumsy. It enraged the network. But it worked.
+This was the opening move in a new kind of arms race. The arena had changed from the tidal pool to the inbox, but the Red Queen’s logic was identical: an escalating contest between attack and defense, fought between those seeking attention and those trying to avoid distraction.
 
-[That first spam](https://cleanoutbound.com/posts/the-day-of-the-blast/) was the bite mark on the pristine shell, the inciting incident of a digital arms race with a story all its own. Outrage was the ecosystem’s first panicked response, the selection pressure that would demand the creation of a shell.
+The prey reacted quickly. ARPA administrators condemned the intrusion, angry memos flew, and rules were drafted to forbid commercial use. Outrage hardened into a cultural shell.
+
+But the incentives pointed in a different direction: Thuerk’s bosses publicly scolded him, then, privately, kept him on. The blast was credited with more than $10 million in sales. Etiquette could be bruised; revenue could not. The arms race had its fuel. (For the full story of Thuerk’s infamous message, see [The Day of the Blast](https://cleanoutbound.com/posts/the-day-of-the-blast/).)
 
 **IV. The Deluge**
 
-The treadmill began to spin.
+Once the payoff was visible, escalation was inevitable. Cultural defenses were brittle; infrastructure offered leverage. The richest seam was the “open relay”: a misconfigured mail server willing to forward anything for anyone. It was as if every post office in the world agreed to deliver any sack of letters, free of charge, no questions asked. Overnight, the cost of sending collapsed toward zero and a single stunt became industrial practice.
 
-Predator move: spammers found “open relays” — poorly configured servers that would forward anything. Think of a post office that never checked stamps. Anyone could drop off a bag of letters, and they’d get delivered, no questions asked. Millions of free messages poured through.
+Prey response: the first filters. They were laughably simple, scanning for banned words like “Viagra.” For a moment, it worked.
 
-Prey response: the first filters. Laughably simple, scanning for banned words like “Viagra.” For a moment, it worked.
+Counter-move: “Viagra” became “V1agra.” Spammers padded messages with invisible gibberish to dilute the signal and confuse the filters. Each shell provoked a sharper claw.
 
-Counter-move: “Viagra” became “V1agra.” Spammers padded emails with invisible gibberish to dilute the signal and confuse the filters. Each shell provoked a sharper claw.
+And then the abstract threat acquired a face. In 1994, a husband-and-wife legal team, Laurence Canter and Martha Siegel, posted ads for their immigration law services across thousands of Usenet groups. The pitch was ordinary; the method was not. By blanketing nearly every discussion board, they turned a small ad into a network-wide nuisance. The backlash was instant. Canter and Siegel became the “Green Card Lawyers,” briefly the most hated people on the internet, and for many this was the moment spam felt less like an annoyance and more like an invasive species.
 
-And in 1994, the abstract threat was given a human face.
-
-A husband-and-wife legal team, Laurence Canter and Martha Siegel, posted ads for their immigration law services across thousands of Usenet groups. They promised help with U.S. green card applications. The pitch was ordinary; the method was not. By blanketing nearly every discussion board, they turned a small ad into a network-wide nuisance.
 
 <div style="text-align: center; margin: 2rem 0 0.5rem 0;">
   <img src="../../assets/greencard-lawyers.png" alt="Martha Siegel and Laurence Canter" style="max-width: 80%; height: auto; border-radius: 6px;">
   <div style="font-size: 0.7rem; color: #666;">Martha Siegel and Laurence Canter: "Technically, it was class action."</div>
 </div>
-
-The backlash was instant. Canter and Siegel became notorious as the “Green Card Lawyers,” briefly the most hated people on the internet. For many, it was the first time spam felt less like an annoyance and more like an invasive species.
 
 **V. Laws and Bayes**
 
