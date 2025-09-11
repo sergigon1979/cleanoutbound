@@ -1,12 +1,12 @@
 ---
-title: "Outbound is dirty"
+title: "Outbound is Dirty"
 description: "Cold outbound sales creates value—but also invisible costs. This essay explores the externalities, moral tradeoffs, and systemic challenges baked into outbound, and asks whether it can be redesigned from first principles."
 date: 2025-08-07
 tags: [sales, ethics, outbound, externalities, attention, systems]
 toc: false
 ---
 
-# Outbound is dirty
+# Outbound is Dirty
 
 **Modern cold outbound sales is a dirty business. But it doesn't have to be.**
 

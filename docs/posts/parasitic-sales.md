@@ -24,7 +24,10 @@ The match is so close the warbler does not notice the intrusion. That cuckoo egg
 She continues to feed it because the cuckoo chick has evolved to trigger her parental instincts with ruthless precision. The colour of its gape, the pitch of its begging call, and the timing of its hunger are tuned to match or outcompete her own young. Evolutionary biologists call this brood parasitism, the exploitation of one species’ instincts by another.
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="../../assets/Cuckoo.png" alt="Cuckoo chick in a nest" style="max-width: 60%; height: auto;">
+  <img src="../../assets/Cuckoo.png" alt="Cuckoo chick in a nest" style="max-width: 60%; height: auto; border-radius: 6px;">
+  <div style="font-size: 0.75rem; color: #666;">
+    The cuckoo in the nest — nature’s original cold caller.
+  </div>
 </div>
 
 Richard Dawkins, in *The Selfish Gene*, uses the cuckoo as a vivid example of how natural selection favours strategies that exploit pre-wired behaviours. What’s striking is not that the warbler loses, but that it loses by doing exactly what it has evolved to do. The cuckoo does not need speed or force. It wins by presenting the right signals in the right sequence and letting instinct carry out the rest.
