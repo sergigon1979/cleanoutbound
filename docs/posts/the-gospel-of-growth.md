@@ -167,10 +167,6 @@ The book became bigger than its author, and the framework became bigger than the
 company it was born in. Salesforce got its $100M boost. Ross got his legacy. And VCs got a 
 playbook they could bet billions on. 
 
-The gospel gave sales its factory. But success carried a hidden cost: the very efficiency of 
-the model produced buyer fatigue, channel saturation, and a creeping distrust of outreach 
-itself. The age of predictable volume is over. The next one will have to be built on something 
-else entirely. 
+The gospel gave sales its factory. But the very efficiency of that model produced buyer fatigue, channel saturation, and a creeping distrust of outreach itself. The age of predictable volume is over. The next one will have to be built on something else entirely.
 
-The gospel gave us a blueprint for scale. It never said what to do when the market stopped 
-caring about what the machine produced. 
+The blueprint of scale taught us how to grow, not what to do when the market stopped caring about what the machine produced.
