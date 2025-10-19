@@ -106,6 +106,8 @@ trustworthiness at scale is to successfully simulate it first.
 
 **The cost of scaling beyond consent**
 
+Ultimately, the need for email warming is a declaration of intent. A business that uses email as it was originally conceived, for relevant communication that people would expect to receive, has no need for it. Their natural, human-scale behavior builds reputation organically.
+
 The warming ritual exists only to build one thing: a reservoir of algorithmic trust, to be spent on 
 high-volume reach the moment the company decides to flip the switch. It is the rite of passage 
 every company must pass through to scale beyond consent. The company pays the cost of this 
