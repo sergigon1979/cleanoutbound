@@ -47,14 +47,14 @@ condemning messages to the junk folder.
 
 **Email warming: a rehearsal for reputation**
 
-Email warming is the process of methodically building a positive reputation before launching 
-a large-scale campaign. It is, in essence, a rehearsal staged to train the inbox algorithms to 
-trust you. The process mimics the behavior of a healthy domain over time by:  
+Email warming is the process of methodically building a positive reputation before launching a large-scale campaign. 
 
-- Starting with a low volume of emails and increasing it gradually.  
-- Sending to a network of engaged inboxes that are programmed to open, reply, and 
+It is, in essence, a rehearsal staged to train the inbox algorithms to trust you. Since the precise rules of the algorithms are opaque, the industry has reverse-engineered a set of best practices that imitate the signals of a trusted sender. This shared wisdom has crystallized into something of a ritual that mimics the behavior of a healthy domain over time:
+
+- Start with a low volume of emails and increase it gradually.  
+- Send to a network of engaged inboxes that are programmed to open, reply, and 
 mark emails as important.  
-- Maintaining a near-zero bounce rate by using verified lists of these friendly inboxes.  
+- Maintain a near-zero bounce rate by using verified lists of these friendly inboxes.  
 
 Many modern sales tools — including Warmup Inbox, Lemwarm, Instantly, and Smartlead, to 
 name just a few — automate this process, creating “reply loops” that simulate natural, 
@@ -93,16 +93,9 @@ to anyone with a public-facing role today.
 
 **The first Internet: a high-trust network**
 
-This entire cycle of algorithmic defense and circumvention stems from the original 
-architecture of email. The underlying protocol, SMTP, was created by the same research 
-community that built and ran the ARPANET — the embryo of the internet, a small high-trust 
-network where participants knew each other by name — and was designed with no built-in 
-identity layer.  
+This entire cycle of algorithmic defense and circumvention stems from the original architecture of email. The underlying protocol, SMTP, was created by the same research community that built and ran the ARPANET — the embryo of the internet, a small high-trust network where participants knew each other by name — and was designed with no built-in identity layer.
 
-In response, providers have layered on opaque, machine-learning filters to police the 
-commons. This opacity is a feature, not a bug; if the rules for gaining trust were transparent, 
-they would be immediately gamed. The result is a system where the only way to prove 
-trustworthiness at scale is to successfully simulate it first.  
+In response to the flood of spam that exploited this vulnerability, providers have layered on opaque, machine-learning filters to police the commons. If the rules for gaining trust were transparent, they would be immediately gamed. The result is a system where the only way to prove trustworthiness at scale is to successfully simulate it first.
 
 **The cost of scaling beyond consent**
 
