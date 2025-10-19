@@ -95,6 +95,8 @@ to anyone with a public-facing role today.
 
 This entire cycle of algorithmic defense and circumvention stems from the original architecture of email. The underlying protocol, SMTP, was created by the same research community that built and ran the ARPANET — the embryo of the internet, a small high-trust network where participants knew each other by name — and was designed with no built-in identity layer.
 
+(See [**The Day of the Blast**](https://cleanoutbound.com/posts/the-day-of-the-blast/) for how that same network produced the first mass email.)
+
 In response to the flood of spam that exploited this vulnerability, providers have layered on opaque, machine-learning filters to police the commons. If the rules for gaining trust were transparent, they would be immediately gamed. The result is a system where the only way to prove trustworthiness at scale is to successfully simulate it first.
 
 **The cost of scaling beyond consent**
