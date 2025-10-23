@@ -64,17 +64,12 @@ inferred from observation. If traffic from a certain range keeps hitting both Sa
 documentation and Salesforce’s careers page, the algorithm quietly labels that network  
 “Salesforce.”  
 
-Once the web traffic is associated with companies, enrichment firms such as Bombora,  
-NetWise, and LeadSift classify the pages being read into business topics like “HR system  
-migration,” “payroll software,” or “Workday alternatives.” When enough visits from one  
-network cluster around a theme, the system records a “topic surge.”  
+Once the web traffic is associated with companies, enrichment firms take over. They classify the pages being read into business topics like “HR system migration,” “payroll software,” or “Workday alternatives.” When enough visits from one network cluster around a theme, the system records a “topic surge.” Some vendors go further, layering in other data points—hiring trends, funding rounds, technology installs—to build what they call "composite intent signals", the claim being that combining many weak indicators yields a stronger, more reliable signal.
 
-By now, the data has passed through several hands. The ad exchange sells the packet, the  
-broker sells the feed, and the enrichment firm sells the identity — or rather, the guess at one.  
-Finally, platform integrators like ZoomInfo and 6sense package everything for go-to-market  
-teams. Marketing uses it for account-based targeting; sales uses it to prioritise outreach. The  
-dashboard turns those probabilities into something that looks decisive: *Acme Manufacturing –  
-HR system migration interest up 28% week over week.*  
+By now, the data has already passed through several hands. The ad exchange sells the packet, the broker sells the feed, and a chain of specialists reshapes it: IP-mapping firms guess which company each address belongs to; enrichment vendors classify pages into business topics and aggregate these patterns into the composite “intent” scores. 
+
+And finally, platform integrators like ZoomInfo and 6sense package this manufactured signal for go-to-market teams. Marketing uses it for account-based targeting; sales uses it to prioritise outreach. The dashboard turns those probabilities into something that looks decisive: *“Acme Manufacturing - HR system migration interest up 28% week over week”*.
+
 
 <div style="text-align: center; margin: 2rem 0;">
   <img src="../../assets/five_candidates.png" alt="Five candidates representing probabilistic identity mapping" style="max-width: 100%; height: auto;">

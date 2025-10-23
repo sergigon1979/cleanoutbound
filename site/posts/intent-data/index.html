@@ -6,15 +6,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Cold outbound sales creates value—but also invisible costs. This essay explores the externalities, moral tradeoffs, and systemic challenges baked into outbound, and asks whether it can be redesigned from first principles.">
+        <meta name="description" content="What is Intent Data, how is it manufactured, and why is it (probably) wrong most of the time">
       
       
       
       
-        <link rel="prev" href="../..">
+        <link rel="prev" href="../email-warming/">
       
-      
-        <link rel="next" href="../parasitic-sales/">
       
       
       <link rel="icon" href="/assets/portrait_logo.png">
@@ -22,7 +20,7 @@
     
     
       
-        <title>Outbound is Dirty - CleanOutbound.com</title>
+        <title>Explainer: Intent Data - CleanOutbound.com</title>
       
     
     
@@ -66,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#outbound-is-dirty" class="md-skip">
+        <a href="#explainer-intent-data" class="md-skip">
           Skip to content
         </a>
       
@@ -101,7 +99,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Outbound is Dirty
+              Explainer: Intent Data
             
           </span>
         </div>
@@ -255,19 +253,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../outbound-is-dirty/" class="md-nav__link">
         
   
   
@@ -278,7 +267,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -449,10 +437,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../intent-data/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -463,6 +460,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -509,31 +507,140 @@
 
 
 
-<h1 id="outbound-is-dirty">Outbound is Dirty</h1>
-<p><strong>Modern cold outbound sales is a dirty business. But it doesn't have to be.</strong></p>
-<p><span style="font-size: 0.65rem; color: #888;">Published: August 7, 2025</span></p>
-<p>Sales, as a human occupation, is essential and fundamentally good. At its core, sales is about helping people discover, understand, and ultimately buy the products or solutions a company offers. The very fact that customers willingly complete these transactions is proof enough that these products deliver real value. Seen this way, sales acts as a lubricant, a catalyst: it shortens the gap between potential value—the promise of what the product could do—and realized value, which the customer experiences once they purchase and use it.</p>
-<p>The world simply cannot function without sales.</p>
+<h1 id="explainer-intent-data">Explainer: Intent Data</h1>
+<p><strong>What is "Intent Data", how is it manufactured, and why is it (probably) wrong most of the time.</strong></p>
+<p><span style="font-size: 0.65rem; color: #888;">Published: October 23, 2025</span></p>
+<p><span style="color: #777;">
+The promise of intent data is to replace guesswork with a clear signal of who will buy next.<br />
+The flaw in the promise is that this signal is not a direct measurement of interest, but a<br />
+low-fidelity guess dressed up to look like a data point worth acting on.
+</span></p>
+<p><strong>The next buyer question</strong></p>
+<p>Every go-to-market leader is vexed by the same question: who is ready to buy right now?  </p>
+<p>In pursuit of an answer, an industry formed around an irresistible promise: the power to see<br />
+tomorrow’s buyers before they raise their hands, to replace guesswork with data. This<br />
+promise has fueled a multi-billion dollar market, with over 70% of B2B go-to-market teams now<br />
+using intent data in some form.  </p>
+<p>Yet for a product this valuable, its origins are surprisingly opaque. To understand what’s really<br />
+being sold, it helps to follow the trail back to its source.  </p>
+<p><strong>Bidstream: the raw material</strong></p>
+<p>The story begins, unexpectedly, in advertising.  </p>
+<p>When a webpage loads, the empty rectangle where an advert will appear doesn’t yet have a<br />
+buyer. In the milliseconds before it becomes visible, an automated auction takes place.<br />
+Hundreds of bidders receive a tiny packet of data — the page’s topic, device type, rough<br />
+location, and IP address — and decide whether to bid.  </p>
+<p>It’s as if a newspaper could sell its ad space while you’re reading it, adjusting the price<br />
+depending on what section you’ve opened and where you’re sitting. If the system sees<br />
+you’re reading in Florida in July, the winning bid might be for air conditioners.  </p>
+<p>These auctions create what’s known as the bidstream: a torrent of metadata describing who<br />
+looked at what, when, and from where. It was designed to price attention in real time. But<br />
+publishers realised the by-product — the bidstream itself — had value. Each auction<br />
+produces a small data packet with the page, device, and location details used to price the<br />
+impression. This torrent then flows into the data market through a web of intermediaries —<br />
+brokers and platforms that buy, aggregate, and resell it to enrichment firms searching for<br />
+patterns of commercial intent.  </p>
+<p><strong>Guessing an identity</strong></p>
+<p>The enrichment vendors that buy these feeds face a simple obstacle: the data show what<br />
+pages were viewed, but not who viewed them. To turn a potential intent signal into<br />
+something a marketeer or salesperson can act on, they must first guess which company it<br />
+came from.  </p>
+<p>That task falls to IP-mapping vendors like KickFire, Clearbit Reveal, and Leadfeeder. They<br />
+maintain huge databases linking IP address ranges to corporate networks. Some of those<br />
+links come from public routing records — the internet’s address book — but most are<br />
+inferred from observation. If traffic from a certain range keeps hitting both Salesforce<br />
+documentation and Salesforce’s careers page, the algorithm quietly labels that network<br />
+“Salesforce.”  </p>
+<p>Once the web traffic is associated with companies, enrichment firms such as Bombora,<br />
+NetWise, and LeadSift classify the pages being read into business topics like “HR system<br />
+migration,” “payroll software,” or “Workday alternatives.” When enough visits from one<br />
+network cluster around a theme, the system records a “topic surge.”  </p>
+<p>By now, the data has passed through several hands. The ad exchange sells the packet, the<br />
+broker sells the feed, and the enrichment firm sells the identity — or rather, the guess at one.<br />
+Finally, platform integrators like ZoomInfo and 6sense package everything for go-to-market<br />
+teams. Marketing uses it for account-based targeting; sales uses it to prioritise outreach. The<br />
+dashboard turns those probabilities into something that looks decisive: <em>Acme Manufacturing –<br />
+HR system migration interest up 28% week over week.</em>  </p>
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="../../assets/tragedy_of_the_commons.png" alt="Cartoon illustrating the tragedy of the commons in outbound sales" style="max-width: 100%; height: auto;">
+  <img src="../../assets/five_candidates.png" alt="Five candidates representing probabilistic identity mapping" style="max-width: 100%; height: auto;">
 </div>
 
-<p>And yet, sales often ends up dirty, and cold outbound sales is particularly so. It generates pollution in the same way a chemical plant produces waste. To manufacture a profitable compound, the factory inevitably creates byproducts. When that waste is discharged into a river, the cost isn’t borne by the factory but passed downstream to communities living beside it.</p>
-<p>Economists call this a <strong>negative externality</strong>: a cost imposed on third parties who neither chose nor benefit from the transaction.</p>
-<p>Noise pollution is another example. A nightclub generates profit for its owners and entertainment for its customers, while neighbors—who didn’t vote for any of it—lie awake at 3 AM, robbed of sleep and peace of mind. Worse still, as they stare at the ceiling, they can’t help but picture the club owner raising a glass to a successful night.</p>
-<p>Outbound sales creates similar negative externalities, ones I’ve always found hard to ignore when building sales operations. The pollution isn’t audible like noise or visible like waste, but it’s just as real. It appears as overflowing inboxes, interrupted conversations, and minutes stolen from our concentration. Individually, these costs seem trivial. But multiplied millions of times, they become a burden carried by society—imposed without consent or consultation, like those neighbors kept up by the nightclub.</p>
-<p>Companies evaluate outbound programs using familiar metrics: the volume of outreach (emails, calls), conversion rates into qualified leads, and the percentage of those leads that become paying customers. Success is declared when the total value of closed deals exceeds the cost of running the program.</p>
-<p>Those costs are typically calculated as the sum of data acquisition and validation, sales tooling (CRM, sequencing software, automation), outreach efforts (calls, emails, meetings), sales team compensation, marketing collateral, and, to a lesser extent, overhead like compliance and operations.</p>
-<p>What’s never tallied in this equation are the costs outbound pushes onto everyone else. But if they were factored in—using the same cold numerical logic we apply to leads, deals, and returns—outbound might be designed very differently.</p>
-<p>There’s another dynamic at play in cold outbound, one that mirrors a well-known dilemma from environmental science.</p>
-<p>The <strong>tragedy of the commons</strong>, a concept popularized by ecologist Garrett Hardin in the 1960s, describes how shared resources tend to be overused when individuals act in their own immediate self-interest. In Hardin’s example, several shepherds graze animals on a common pasture; each benefits by adding more livestock, but the damage from overgrazing is shared by all. Eventually, the resource collapses—and everyone loses.</p>
-<p>Sales faces a similar dynamic. The common pasture is customer attention. These are people who might genuinely benefit from our product, if we could just hold their interest for a few minutes. But that same customer lives in a swarm of competing offers, each salesperson acting rationally by sending one more email, making one more call, leaving one more message.</p>
-<p>The result: an ecosystem choking on excess. Attention—once relatively abundant—has become scarce, expensive, and increasingly immune to capture, another casualty of a system that generates value by offloading its costs on time, focus, and consent at massive scale.</p>
-<p>It doesn’t have to be this way.</p>
-<p>The assumption that waste is an unavoidable byproduct of sales isn’t a law of nature. It’s a consequence of how we choose to operate: how we build teams, run programs, and measure success.</p>
-<p>So: <strong>is it possible to build a truly Clean Outbound?</strong></p>
-<p>That’s the question I explore on these pages: whether outbound programs can be reimagined to drastically reduce the negative externalities we’ve come to accept as normal—and, just as critically, whether they can match or even outperform the effectiveness of the conventional, “dirty” systems that dominate today.</p>
-<p>Because unless it delivers real results, Clean Outbound is just another elegant theory collecting dust.</p>
+<p><strong>Acme Manufacturing</strong></p>
+<p>Lean back and watch the full motion unfold.  </p>
+<p>A job candidate, connected to the guest Wi-Fi while waiting in the lobby of Acme<br />
+Manufacturing, scrolls through the websites of Workday and BambooHR: two other firms<br />
+where he’s also applied for roles.  </p>
+<p>Each site he visits fires a bidstream ping. An ad exchange broadcasts the details; a data<br />
+broker captures the packet and sells the feed. Days later, at an enrichment firm, that lobby<br />
+Wi-Fi’s IP address is matched to Acme Manufacturing, the candidate’s browsing is tagged as<br />
+corporate-level interest in “HR system migration,” and the activity registers as a surge.  </p>
+<p>The surge alert enters BambooHR’s marketing automation system, where Acme<br />
+Manufacturing’s account score ticks upward, finally hitting some arbitrary threshold, which<br />
+flags it as a Marketing-Qualified Account and routes it to Sales. A task is queued in the CRM<br />
+for John, an SDR at BambooHR. After returning from his coffee break, he places a call.  </p>
+<p>The phone rings in the office of Acme’s Head of People Ops, the very manager who<br />
+interviewed the candidate. She picks up, still drafting a polite rejection note, and hears:  </p>
+<blockquote>
+<p>“We noticed you’re exploring new HR systems.”  </p>
+</blockquote>
+<p><strong>Why the signal breaks down</strong></p>
+<p>The common critique of intent data is that its signal is weak because context is lost at each<br />
+step: turning a page view into an IP address, an IP into a company, and a company into a<br />
+trend. But this framing is too generous. It implies a real, person-level signal existed at the<br />
+start, only to be stripped of its meaning.  </p>
+<p>The opposite happens. The process begins with something inherently indeterminate —<br />
+anonymous web traffic¹ — and adds layers of conjecture. Fidelity isn’t lost; it’s invented,<br />
+dressing up a statistical guess until it looks like a data point worth acting on.  </p>
+<p>The weakest link is <strong>identity mismatch</strong>, the attempt to map that anonymous web traffic to<br />
+a specific company. Audits put accuracy near 40–50%, far below the 80–90% vendors claim.<br />
+Remote work, shared offices, and cloud infrastructure all blur IP identity. Two providers may<br />
+disagree on which company an IP belongs to, so the same browsing activity can register as<br />
+intent from entirely different firms. And even when they’re right, the match only narrows the<br />
+activity to a company, never to a person.  </p>
+<p>The next distortion is <strong>manufactured statistical certainty</strong>. Composite scoring blends<br />
+different data types to make a weak signal seem stronger. The signals it tracks — hiring<br />
+surges, funding rounds, new software installs — all stem from the same cause: business<br />
+growth. Since these clues point in the same direction, they don’t triangulate a target; they<br />
+reinforce the same assumption. The model becomes more confident without becoming more<br />
+accurate — mistaking correlation for certainty.  </p>
+<p>Another flaw is <strong>semantic drift in topic detection</strong>. Every “surge” depends on vendor-specific<br />
+taxonomies — “HR software,” “contract management,” “cloud migration” — derived from<br />
+automated classifiers that interpret page text and metadata. Vendors revise these opaque<br />
+taxonomies without notice, so changes in classification often reflect model drift, not market<br />
+behaviour. A single page can be labeled differently across providers or model versions,<br />
+creating semantic drift that mirrors shifts in the classifier, not in buyer intent.  </p>
+<p>The final limitation is <strong>latency</strong>. The auction that produces the bidstream happens in<br />
+milliseconds; the enrichment and reporting cycle takes days or weeks. By the time a score<br />
+appears in a dashboard, the behaviour it describes is often already stale.  </p>
+<p>Yet the system endures, and for rational reasons. Weak signals are not worthless. In a<br />
+high-volume outbound model, even a tiny probabilistic edge compounds at scale. A one- or<br />
+two-point lift in response rate, spread across thousands of prospects, pays for itself many<br />
+times over.  </p>
+<p>That’s why intent data fits so neatly into the industrial go-to-market philosophy: it offers<br />
+direction: just enough to keep the outbound factory running, turning a small statistical edge<br />
+into a licence for volume.  </p>
+<p><span style="font-size: smaller; color: #777; display: block; margin-top: 2rem;">
+¹ A curated alternative to the raw bidstream is the data cooperative model, often associated with vendors like Bombora. In this model, a network of B2B publishers agrees to share anonymized visitor data, yielding a higher-quality signal about the topic being researched (the what). Crucially, however, it still depends on the same probabilistic IP-to-company mapping to determine where that research originates (the who), and therefore does not solve the fundamental identity and context challenges outlined here.
+</span></p>
+<p><strong>The vanishing raw material</strong></p>
+<p>The industry has long weathered scrutiny over the unreliability of its manufactured signals.<br />
+But it now faces a truly existential threat, one that targets not the quality of the signal, but<br />
+its very existence. The entire market was built on a single, fragile assumption: that the<br />
+torrent of human curiosity, expressed as page views, would flow forever.  </p>
+<p>That assumption is now breaking.  </p>
+<p>As AI assistants handle more of the early research process, users get answers without<br />
+opening a page. In 2024, SparkToro and SimilarWeb found that more than 65% of Google<br />
+searches ended without a click — a record high — and early evidence suggests AI answer<br />
+boxes will push that number higher still. Publishers see the same trend: Semrush and<br />
+Parse.ly report year-on-year declines in organic traffic across B2B and informational sites.  </p>
+<p>For business buyers, the shift is sharper. A procurement manager who once searched “best<br />
+contract-management software” now asks ChatGPT or Claude and receives a synthesised<br />
+answer instantly. No page view means no auction, no bidstream, and nothing to map.  </p>
+<p>This shift to conversational AI presents a fundamental challenge. Unlike the open web,<br />
+where actions are public by default, these new interfaces are private. As research activity<br />
+moves from public web pages to private AI chats, the visibility required for bidstream<br />
+auctions disappears.  </p>
+<p>The raw material of this market is human curiosity expressed as a page view, and the<br />
+industry is running out of curiosity to sell.</p>
 
 
 
