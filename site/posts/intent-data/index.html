@@ -539,7 +539,7 @@ produces a small data packet with the page, device, and location details used to
 impression. This torrent then flows into the data market through a web of intermediaries —<br />
 brokers and platforms that buy, aggregate, and resell it to enrichment firms searching for<br />
 patterns of commercial intent.  </p>
-<p><strong>Guessing an identity</strong></p>
+<p><strong>Guessing and dressing identities</strong></p>
 <p>The enrichment vendors that buy these feeds face a simple obstacle: the data show what<br />
 pages were viewed, but not who viewed them. To turn a potential intent signal into<br />
 something a marketeer or salesperson can act on, they must first guess which company it<br />
@@ -551,6 +551,7 @@ inferred from observation. If traffic from a certain range keeps hitting both Sa
 documentation and Salesforce’s careers page, the algorithm quietly labels that network<br />
 “Salesforce.”  </p>
 <p>Once the web traffic is associated with companies, enrichment firms take over. They classify the pages being read into business topics like “HR system migration,” “payroll software,” or “Workday alternatives.” When enough visits from one network cluster around a theme, the system records a “topic surge.” Some vendors go further, layering in other data points—hiring trends, funding rounds, technology installs—to build what they call "composite intent signals", the claim being that combining many weak indicators yields a stronger, more reliable signal.</p>
+<p><strong>To put a bow on it</strong></p>
 <p>By now, the data has already passed through several hands. The ad exchange sells the packet, the broker sells the feed, and a chain of specialists reshapes it: IP-mapping firms guess which company each address belongs to; enrichment vendors classify pages into business topics and aggregate these patterns into the composite “intent” scores. </p>
 <p>And finally, platform integrators like ZoomInfo and 6sense package this manufactured signal for go-to-market teams. Marketing uses it for account-based targeting; sales uses it to prioritise outreach. The dashboard turns those probabilities into something that looks decisive: <em>“Acme Manufacturing - HR system migration interest up 28% week over week”</em>.</p>
 <div style="text-align: center; margin: 2rem 0;">
@@ -573,9 +574,9 @@ for John, an SDR at BambooHR. After returning from his coffee break, he places a
 <p>The phone rings in the office of Acme’s Head of People Ops, the very manager who<br />
 interviewed the candidate. She picks up, still drafting a polite rejection note, and hears:  </p>
 <blockquote>
-<p>“We noticed you’re exploring new HR systems.”  </p>
+<p>“I noticed you’re exploring new HR systems.”  </p>
 </blockquote>
-<p><strong>Why the signal breaks down</strong></p>
+<p><strong>Where the guesswork breaks</strong></p>
 <p>The common critique of intent data is that its signal is weak because context is lost at each<br />
 step: turning a page view into an IP address, an IP into a company, and a company into a<br />
 trend. But this framing is too generous. It implies a real, person-level signal existed at the<br />
@@ -589,12 +590,7 @@ Remote work, shared offices, and cloud infrastructure all blur IP identity. Two 
 disagree on which company an IP belongs to, so the same browsing activity can register as<br />
 intent from entirely different firms. And even when they’re right, the match only narrows the<br />
 activity to a company, never to a person.  </p>
-<p>The next distortion is <strong>manufactured statistical certainty</strong>. Composite scoring blends<br />
-different data types to make a weak signal seem stronger. The signals it tracks — hiring<br />
-surges, funding rounds, new software installs — all stem from the same cause: business<br />
-growth. Since these clues point in the same direction, they don’t triangulate a target; they<br />
-reinforce the same assumption. The model becomes more confident without becoming more<br />
-accurate — mistaking correlation for certainty.  </p>
+<p>The next distortion is <strong>manufactured statistical certainty</strong>. Composite scoring blends different data types — hiring surges, funding rounds, new software installs — to make a weak signal look stronger. But these signals are rarely independent. A company that has just raised funding is also likely to be hiring and buying software. Since the clues point to the same underlying event, they don’t triangulate a target, they simply reinforce one assumption. The model grows more confident without becoming more accurate, mistaking correlation for certainty.</p>
 <p>Another flaw is <strong>semantic drift in topic detection</strong>. Every “surge” depends on vendor-specific<br />
 taxonomies — “HR software,” “contract management,” “cloud migration” — derived from<br />
 automated classifiers that interpret page text and metadata. Vendors revise these opaque<br />
@@ -604,6 +600,10 @@ creating semantic drift that mirrors shifts in the classifier, not in buyer inte
 <p>The final limitation is <strong>latency</strong>. The auction that produces the bidstream happens in<br />
 milliseconds; the enrichment and reporting cycle takes days or weeks. By the time a score<br />
 appears in a dashboard, the behaviour it describes is often already stale.  </p>
+<p><span style="font-size: smaller; color: #777; display: block; margin-top: 2rem;">
+¹ A curated alternative to the raw bidstream is the data cooperative model, often associated with vendors like Bombora. In this model, a network of B2B publishers agrees to share anonymized visitor data, yielding a higher-quality signal about the topic being researched (the what). Crucially, however, it still depends on the same probabilistic IP-to-company mapping to determine where that research originates (the who), and therefore does not solve the fundamental identity and context challenges outlined here.
+</span></p>
+<p><strong>The industrial logic</strong></p>
 <p>Yet the system endures, and for rational reasons. Weak signals are not worthless. In a<br />
 high-volume outbound model, even a tiny probabilistic edge compounds at scale. A one- or<br />
 two-point lift in response rate, spread across thousands of prospects, pays for itself many<br />
@@ -611,9 +611,6 @@ times over.  </p>
 <p>That’s why intent data fits so neatly into the industrial go-to-market philosophy: it offers<br />
 direction: just enough to keep the outbound factory running, turning a small statistical edge<br />
 into a licence for volume.  </p>
-<p><span style="font-size: smaller; color: #777; display: block; margin-top: 2rem;">
-¹ A curated alternative to the raw bidstream is the data cooperative model, often associated with vendors like Bombora. In this model, a network of B2B publishers agrees to share anonymized visitor data, yielding a higher-quality signal about the topic being researched (the what). Crucially, however, it still depends on the same probabilistic IP-to-company mapping to determine where that research originates (the who), and therefore does not solve the fundamental identity and context challenges outlined here.
-</span></p>
 <p><strong>The vanishing raw material</strong></p>
 <p>The industry has long weathered scrutiny over the unreliability of its manufactured signals.<br />
 But it now faces a truly existential threat, one that targets not the quality of the signal, but<br />

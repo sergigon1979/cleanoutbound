@@ -31,24 +31,13 @@ being sold, it helps to follow the trail back to its source.
 
 **Bidstream: the raw material**
 
-The story begins, unexpectedly, in advertising.  
+The story begins, unexpectedly, in advertising.
 
-When a webpage loads, the empty rectangle where an advert will appear doesn’t yet have a  
-buyer. In the milliseconds before it becomes visible, an automated auction takes place.  
-Hundreds of bidders receive a tiny packet of data — the page’s topic, device type, rough  
-location, and IP address — and decide whether to bid.  
+When a webpage loads, the empty rectangle where an advert will appear doesn’t yet have a buyer. In the milliseconds before it becomes visible, an automated dynamic auction takes place. Hundreds of bidders receive a tiny packet of data — the page’s topic, device type, rough location, and IP address — and decide whether to bid. If that packet shows a reader in Florida in July, for instance, air conditioner companies are far more likely to bid higher and win the auction.
 
-It’s as if a newspaper could sell its ad space while you’re reading it, adjusting the price  
-depending on what section you’ve opened and where you’re sitting. If the system sees  
-you’re reading in Florida in July, the winning bid might be for air conditioners.  
+The primary purpose of each dynamic auction is to sell a single ad impression, so the value of the broadcasted data packet was never intended to be more than ephemeral, lasting only long enough to price that one moment of attention.
 
-These auctions create what’s known as the bidstream: a torrent of metadata describing who  
-looked at what, when, and from where. It was designed to price attention in real time. But  
-publishers realised the by-product — the bidstream itself — had value. Each auction  
-produces a small data packet with the page, device, and location details used to price the  
-impression. This torrent then flows into the data market through a web of intermediaries —  
-brokers and platforms that buy, aggregate, and resell it to enrichment firms searching for  
-patterns of commercial intent.  
+But publishers and ad exchanges soon realized there was a by-product — the trail of metadata left by billions of such auctions — that was a valuable asset in its own right. This aggregate trail is the **bidstream**. A secondary market quickly formed, with data brokers emerging to buy, aggregate, and resell this torrent of data.
 
 **Guessing and dressing identities**
 
