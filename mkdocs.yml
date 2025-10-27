@@ -16,10 +16,10 @@ nav:
   - Posts:
       - "Outbound is Dirty": posts/outbound-is-dirty.md
       - "Parasitic Sales": posts/parasitic-sales.md
-      - "Degrees of Clean": posts/degrees-of-clean.md 
+      # - "Degrees of Clean": posts/degrees-of-clean.md 
       - "The Day of the Blast": posts/the-day-of-the-blast.md
       - "The Red Queen": posts/the-red-queen.md
-      - "Praxos vs. Cleanthes": posts/praxos-vs-cleanthes.md
+      # - "Praxos vs. Cleanthes": posts/praxos-vs-cleanthes.md
       - "The Gospel of Growth": posts/the-gospel-of-growth.md
       - "Explainer: Email Warming": posts/email-warming.md
       - "Explainer: Intent Data": posts/intent-data.md
