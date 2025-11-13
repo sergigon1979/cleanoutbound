@@ -13,7 +13,9 @@ toc: false
 <!--
 <span style="font-size: 0.65rem; color: #888;">Published: August 11, 2025</span>
 -->
-
+<span style="color: #777;">
+Cold calling works by hijacking evolved social instincts that made sense in small groups and turn against us in the environment of call queues and call quotas. Once you recognise the mechanism, you have every right to protect yourself. Hang up.
+</span>
 
 **A visitor in the nest**
 

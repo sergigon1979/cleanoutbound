@@ -12,6 +12,9 @@ tags: [history, sales, spam, ethics, outbound]
 <!--
 <span style="font-size: 0.65rem; color: #888;">Published: September 4, 2025</span>
 -->
+<span style="color: #777;">
+The first mass email on ARPANET (the first email blast ever) broke the expectations of the network and angered its users. It also delivered an undeniable commercial success. In that first collision between violation of consent and reward, reward won. The incentives set in that moment shaped every outbound tactic that followed.
+</span>
 
 **I. The Mill in Maynard**
 
