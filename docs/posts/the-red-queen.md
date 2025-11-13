@@ -13,6 +13,10 @@ tags: [history, sales, spam, arms-race, outbound]
 <span style="font-size: 0.65rem; color: #888;">Published: September 5, 2025</span>
 -->
 
+<span style="color: #777;">
+The moment email became a way to reach a crowd, the inbox turned into contested ground. Defenders improved their filters, attackers reworked their tactics, and the cycle repeated. After forty years of this loop, the overall state of the inbox is remarkably similar to where it began.
+</span>
+
 **I. The Cliffs**
 
 Stand on the Dover coast on a bright day and the White Cliffs glare back, improbably stark against the sea. They’re made almost entirely of ancient plankton shells, billions upon billions of microscopic skeletons pressed into chalk over tens of millions of years.
@@ -23,7 +27,7 @@ Two hundred and fifty million years ago, after the Permian extinction, mollusks 
 
 Then came escalation. By the Jurassic, shells had doubled and tripled in thickness. By the Cretaceous, they sprouted spikes and ridges. Crabs answered with claws three times stronger than their ancestors’. Fossils preserve the scars: failed bites, drill holes, fractured shells.
 
-Predator, prey, predator, prey. Faster, thicker, sharper, stronger. Everyone running just to stand still.
+Predator, prey, predator, prey. Each adaptation met by an answering counter-move, a cycle that forced both sides to change or fall behind.
 
 Layer this over millions of years and you end up with cliffs tall enough to guide ships. Evolution leaves monuments — a sedimentary ledger of pressure and response.
 
@@ -111,8 +115,6 @@ Predator move: after blacklists and ISP takedowns made it risky to run their own
 Prey response: throttle the factory at the door. Providers put puzzles on the signup page to block automated account creation. CAPTCHAs, those squiggly letters you had to retype, were designed to be trivial for a human eye and maddening for a script. Early bots couldn’t read warped text; the conveyor belt of throwaway accounts slowed.
 
 Counter-move: spammers outsourced the eyesight. They tricked users into solving CAPTCHAs (“type these letters to get your free download”), then built “CAPTCHA farms” where low-wage workers solved puzzles all day, pennies per hundred. Human perception, industrialized.
-
-Claw, shell. Shell, claw.
 
 **VIII. Filters and Sequencers**
 
