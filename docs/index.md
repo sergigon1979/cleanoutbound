@@ -26,6 +26,7 @@ Strategy consultant turned RevOps, turned Sales Leader, turned Founder. I helped
 
 <p>
 <strong>Clean Outbound</strong> asks this question: Is outbound sales eating itself alive? 
+<p>
 
 The practices and norms everyone now treats as standard still win often for the teams who rely on them, but they’ve been sliding into diminishing returns while also spoiling the playground for everyone else. I’ve spent years helping teams score wins, even as I’ve watched the broader system absorb the cost. That conflict is what drew me into this project. This is my attempt to understand how we got here and whether a better path is possible.
 </p>
