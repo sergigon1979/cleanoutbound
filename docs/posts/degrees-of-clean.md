@@ -9,7 +9,9 @@ tags: [ethics, sales, outreach, behavioural-science]
 
 **Why Clean Sales is a ladder, not a switch — and how to climb it**
 
+<!--
 <span style="font-size: 0.65rem; color: #888;">Published: August 18, 2025</span>
+-->
 
 
 In [*Outbound is Dirty*](https://cleanoutbound.com/posts/outbound-is-dirty/), I compared conventional outbound sales to a poorly regulated factory: profitable for the operator, costly for everyone else. The costs take the form of an attention tax, minutes of focus taken from unwilling recipients of poorly targeted emails. These recipients are, in effect, subsidising the sender’s business.
@@ -70,9 +72,11 @@ That second toll is rarely obvious, but the reader feels it. It’s that moment 
 
 The empathetic move is to carry that burden yourself. Use their vocabulary, put the point first, make the next step obvious.
 
+<!--
 <div style="text-align: center; margin: 2rem 0 0.5rem 0;">
   <img src="../../assets/trojans.png" alt="Illustration of the Trojan Horse as a metaphor for deceptive sales tactics" style="max-width: 100%; height: auto;">
 </div>
+-->
 
 **Honesty**
 

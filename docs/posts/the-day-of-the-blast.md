@@ -9,7 +9,9 @@ tags: [history, sales, spam, ethics, outbound]
 
 **How the first mass email created outbound’s original sin**
 
+<!--
 <span style="font-size: 0.65rem; color: #888;">Published: September 4, 2025</span>
+-->
 
 **I. The Mill in Maynard**
 
@@ -19,10 +21,12 @@ Digital Equipment Corporation, DEC to insiders, ran its empire from an old mill 
 
 DEC was founded in 1957 by two engineers with sharply different temperaments. Ken Olsen was brilliant, stubborn, and famously confident in his forecasts — including one pronouncement that would come back to haunt him¹. Harlan Anderson, more pragmatic, clashed with Olsen often enough that he left the company in the early 1960s. Together, they transformed a wool mill into the launchpad of the minicomputer revolution.
 
+<!--
 <div style="text-align: center; margin: 2rem 0 0.5rem 0;">
   <img src="../../assets/Ken-Olsen.jpeg" alt="Ken Olsen, DEC co-founder" style="max-width: 70%; height: auto; border-radius: 6px;">
   <div style="font-size: 0.7rem; color: #666;">Ken Olsen, DEC's visionary founder, exept when it came to home computers.</div>
 </div>
+-->
 
 Their weapon was the PDP line, which shrank the hulking IBM mainframe into something that could sit in a university lab, humming away under fluorescent lights. The PDP-8 in 1965 broke the $20,000 barrier; the PDP-11 went on to train a generation of programmers.
 
@@ -46,10 +50,12 @@ In 1969, the U.S. Department of Defense funded a bold experiment: connect resear
 
 What began as a defense project quickly turned academic. By the early ’70s, ARPANET hosted email, file transfers, even the first awkward stabs at online chat. Membership was tightly controlled: government agencies, universities, research labs. Having an ARPANET account meant you were inside a small, privileged circle trusted by the Pentagon.
 
+<!--
 <div style="text-align: center; margin: 2rem 0 0.5rem 0;">
   <img src="../../assets/ARPANET_1970_Map.png" alt="ARPANET map circa early 1970s" style="max-width: 70%; height: auto; border-radius: 6px;">
   <div style="font-size: 0.7rem; color: #666;">ARPANET in its formative years: a sparse, elite graph of trust.</div>
 </div>
+-->
 
 By 1978, that circle had grown to a few hundred nodes. The users were scientists, grad students, systems managers, defense contractors... the very people who decided which machines their institutions would buy. Logging on conferred status: technically fluent, institutionally powerful, and, coincidentally, DEC’s perfect customer profile.
 
@@ -98,10 +104,12 @@ ARPANET was a members-only club built on trust, not a marketplace open to bids. 
 
 This is why the first spam is spam. It’s the original sin of confusing audience with permission. The content was relevant, but the context was violated.
 
+<!--
 <div style="text-align: center; margin: 2rem 0 0.5rem 0;">
   <img src="../../assets/Gary-Thuerk.jpeg" alt="Gary Thuerk, DEC marketing manager" style="max-width: 70%; height: auto; border-radius: 6px;">
   <div style="font-size: 0.7rem; color: #666;">Gary Thuerk, the father of spa... e-marketing.</div>
 </div>
+-->
 
 **VIII. The Legacy**
 

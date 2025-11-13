@@ -9,7 +9,9 @@ tags: [email, deliverability, sales, automation, ethics]
 
 **What is email warming, and why it exists**
 
+<!--
 <span style="font-size: 0.65rem; color: #888;">Published: October 18, 2025</span>
+-->
 
 <span style="color: #777;">
 The war on spam gave us algorithmic guardians to protect our attention.  
@@ -60,9 +62,11 @@ Many modern sales tools — including Warmup Inbox, Lemwarm, Instantly, and Smar
 name just a few — automate this process, creating “reply loops” that simulate natural, 
 two-way conversations and generate the positive engagement metrics algorithms look for.  
 
+<!--
 <div style="text-align: center; margin: 2rem 0;">
   <img src="../../assets/emails-warming-up.png" alt="Emails warming up on a running track" style="max-width: 100%; height: auto;">
 </div>
+-->
 
 **Why new domains are required**
 

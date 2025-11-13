@@ -10,15 +10,19 @@ toc: false
 
 **Modern cold outbound sales is a dirty business. But it doesn't have to be.**
 
+<!--
 <span style="font-size: 0.65rem; color: #888;">Published: August 7, 2025</span>
+-->
 
 Sales, as a human occupation, is essential and fundamentally good. At its core, sales is about helping people discover, understand, and ultimately buy the products or solutions a company offers. The very fact that customers willingly complete these transactions is proof enough that these products deliver real value. Seen this way, sales acts as a lubricant, a catalyst: it shortens the gap between potential value—the promise of what the product could do—and realized value, which the customer experiences once they purchase and use it.
 
 The world simply cannot function without sales.
 
+<!--
 <div style="text-align: center; margin: 2rem 0;">
   <img src="../../assets/tragedy_of_the_commons.png" alt="Cartoon illustrating the tragedy of the commons in outbound sales" style="max-width: 100%; height: auto;">
 </div>
+-->
 
 And yet, sales often ends up dirty, and cold outbound sales is particularly so. It generates pollution in the same way a chemical plant produces waste. To manufacture a profitable compound, the factory inevitably creates byproducts. When that waste is discharged into a river, the cost isn’t borne by the factory but passed downstream to communities living beside it.
 

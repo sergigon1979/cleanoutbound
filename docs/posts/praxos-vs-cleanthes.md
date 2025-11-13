@@ -9,7 +9,9 @@ tags: [outbound, clean-sales, ethics, debate]
 
 **Six strong arguments for conventional outbound, and the case for a cleaner alternative.**
 
+<!--
 <span style="font-size: 0.65rem; color: #888;">Published: September 6, 2025</span>
+-->
 
 <span style="color: #888; font-style: italic;">Steam hissed from the espresso machine, a counterpoint to the clink of ceramic. Praxos slid into the booth with the unhurried haste of a man who lives on calendars and quota math. Cleanthes was already there, hands around his cup as if coaxing a confession from it. The small talk, if there had been any, was already exhausted.</span>
 
@@ -23,10 +25,12 @@ CLEANTHES: What's in the “rounding error” column, Praxos? Wasted focus. The 
 
 PRAXOS: So you frame it as a moral question. Fine. I’m not allergic to morality, but I am responsible for keeping the lights on. Let's get serious. I'll give you the strongest case for conventional outbound. You try to break it.
 
+<!--
 <div style="text-align: center; margin: 2rem 0 0.5rem 0;">
   <img src="../../assets/praxos-and-cleanthes.png" alt="Cartoon of Praxos and Cleanthes debating in togas" style="max-width: 70%; height: auto; border-radius: 6px;">
   <div style="font-size: 0.7rem; color: #666;">"I swear, this toga turns every revenue call into Thermopylae"</div>
 </div>
+-->
 
 **ARGUMENT #1: IF WE DON’T OUTBOUND, WE DIE**
 
@@ -110,7 +114,9 @@ CLEANTHES: Deal.
 
 <span style="color: #888; font-style: italic;">The barista called out an order. The steam wand hissed once more, steady and indifferent.</span>
 
+<!--
 <div style="text-align: center; margin: 2rem 0 0.5rem 0;">
   <img src="../../assets/enemy-army.png" alt="Axios looking how the enemy advances in the distance" style="max-width: 70%; height: auto; border-radius: 6px;">
 </div>
+-->
 

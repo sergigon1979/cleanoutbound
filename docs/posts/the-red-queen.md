@@ -9,7 +9,9 @@ tags: [history, sales, spam, arms-race, outbound]
 
 **A 40-Year History of the Spam Arms Race**
 
+<!--
 <span style="font-size: 0.65rem; color: #888;">Published: September 5, 2025</span>
+-->
 
 **I. The Cliffs**
 
@@ -35,9 +37,11 @@ Van Valen argued that species aren’t just adapting to their environments. They
 
 Carroll himself admired the Dover cliffs on his Channel crossings. He could never have guessed his whimsical queen would end up as one of biology’s most durable metaphors. But here we are.
 
+<!--
 <div style="text-align: center; margin: 2rem 0 0.5rem 0;">
   <img src="../../assets/Viking.png" alt="Cartoon of Viking blowing a giant sea shell" style="max-width: 65%; height: auto; border-radius: 6px;">
 </div>
+-->
 
 **III. The First Bite**
 
@@ -63,11 +67,12 @@ Counter-move: “Viagra” became “V1agra.” Spammers padded messages with in
 
 And then the abstract threat acquired a face. In 1994, a husband-and-wife legal team, Laurence Canter and Martha Siegel, posted ads for their immigration law services across thousands of Usenet groups. The pitch was ordinary; the method was not. By blanketing nearly every discussion board, they turned a small ad into a network-wide nuisance. The backlash was instant. Canter and Siegel became the “Green Card Lawyers,” briefly the most hated people on the internet, and for many this was the moment spam felt less like an annoyance and more like an invasive species.
 
-
+<!--
 <div style="text-align: center; margin: 2rem 0 0.5rem 0;">
   <img src="../../assets/greencard-lawyers.png" alt="Martha Siegel and Laurence Canter" style="max-width: 80%; height: auto; border-radius: 6px;">
   <div style="font-size: 0.7rem; color: #666;">Martha Siegel and Laurence Canter: "Technically, it was class action."</div>
 </div>
+-->
 
 **V. Laws and Bayes**
 
@@ -117,9 +122,11 @@ Predators adapted again. They turned to *email warming*: sending low volumes of 
 
 The effect was to look less like a botnet and more like a salesperson, while still being a botnet at scale. The camouflage worked because it hijacked human instincts. A message that appears timely, personal, and written “just for you” taps the same reflexes we explored in [Parasitic Sales](https://cleanoutbound.com/posts/parasitic-sales/): our tendency to trust the polite knock, to grant attention when approached as individuals. Automation had learned to mimic courtesy.
 
+<!--
 <div style="text-align: center; margin: 2rem 0 0.5rem 0;">
   <img src="../../assets/sheep-bot.png" alt="Cartoon of a robot disguised in a sheep costume knocking on Little Red Riding Hood's grandmother’s house" style="max-width: 75%; height: auto;">
 </div>
+-->
 
 **IX. AI vs. AI**
 

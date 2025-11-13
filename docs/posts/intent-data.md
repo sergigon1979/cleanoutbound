@@ -9,7 +9,9 @@ tags: [intent, data, sales, analytics, ethics]
 
 **What is "Intent Data", how is it manufactured, and why is it (probably) wrong most of the time.**
 
+<!--
 <span style="font-size: 0.65rem; color: #888;">Published: October 23, 2025</span>
+-->
 
 <span style="color: #777;">
 The promise of intent data is to replace guesswork with a clear signal of who will buy next.  
@@ -61,10 +63,11 @@ By now, the data has already passed through several hands. The ad exchange sells
 
 And finally, platform integrators like ZoomInfo and 6sense package this manufactured signal for go-to-market teams. Marketing uses it for account-based targeting; sales uses it to prioritise outreach. The dashboard turns those probabilities into something that looks decisive: *“Acme Manufacturing - HR system migration interest up 28% week over week”*.
 
-
+<!--
 <div style="text-align: center; margin: 2rem 0;">
   <img src="../../assets/five_candidates.png" alt="Five candidates representing probabilistic identity mapping" style="max-width: 100%; height: auto;">
 </div>
+-->
 
 **Acme Manufacturing**
 
