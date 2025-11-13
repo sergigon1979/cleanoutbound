@@ -21,7 +21,7 @@ hide:
 <div class="hero">
 
 <p>
-Strategy consultant turned RevOps, turned Sales Leader, turned Founder. I helped build sales systems from the ground up at Twitter and Stripe. I'm also a nerd who reads patterns in everything through the lens of history, evolutionary biology, economics and psychology. I also dislike receiving cold outreach.
+Strategy consultant turned RevOps, turned Sales Leader, turned Founder. I helped build sales systems from the ground up at Twitter and Stripe. A nerd who reads patterns in everything through the lens of history, evolutionary biology, economics and psychology. Also I dislike receiving cold outreach
 </p>
 
 <p>
