@@ -125,10 +125,8 @@ Thuerk himself went on to work in marketing and consulting, giving occasional in
 
 **IX. Clean Outbound, Dirty Beginnings**
 
-Spam began in sophistication: a clever reading of a new medium. A marketer saw a dense cluster of high-value prospects and reached for the newest channel. Commercially, it worked. Culturally, it backfired.
+Spam began as a precise reading of a new medium. A marketer spotted a tight cluster of prospects, fired a single broad message, and proved you could reach thousands with almost no effort. The returns came fast. 
 
-The tension persists. We call the alternative Clean Outbound: earn attention, don’t assume it. You can nail targeting, timing, even relevance, and still land as noise.
+The lesson arrived just as quickly. When a channel delivers, teams push it until the friction shows. Norms drift, incentives harden, and restraint loses every argument. Thuerk's managers disliked the stunt but kept the results. The industry noticed.
 
-Thuerk’s bosses scolded him, then let the results speak louder. That was the lesson the industry absorbed: when the payoff is big enough, ethics and brand reputation are negotiable. Incentives, not norms, set the direction. And they still do.
-
-That contradiction—condemned and rewarded—is outbound’s original sin. It began in a Massachusetts mill, with a marketer who thought like an engineer, an invitation that seemed harmless, and an inbox that suddenly didn’t feel so clean.
+From there the pattern spread. Small steps, repeated often, rewired expectations around the inbox. Volume became normal. Attention thinned. What once felt like correspondence started to feel like clutter. It began in a Massachusetts mill, with a marketer who thought like an engineer, an invitation that seemed harmless, and an inbox that suddenly didn't feel so clean.
