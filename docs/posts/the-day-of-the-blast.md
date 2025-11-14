@@ -123,10 +123,10 @@ DEC’s path adds its own irony. The company dominated the 1980s, then missed th
 Thuerk himself went on to work in marketing and consulting, giving occasional interviews about “the first spam.” He never stopped insisting that the campaign was smart, targeted, and effective. But he also never escaped the label that history pinned on him.
 
 
-**IX. Clean Outbound, Dirty Beginnings**
+**IX. We Follow the Money**
 
 Spam began as a precise reading of a new medium. A marketer spotted a tight cluster of prospects, fired a single broad message, and proved you could reach thousands with almost no effort. The returns came fast. 
 
 The lesson arrived just as quickly. When a channel delivers, teams push it until the friction shows. Norms drift, incentives harden, and restraint loses every argument. Thuerk's managers disliked the stunt but kept the results. The industry noticed.
 
-From there the pattern spread. Small steps, repeated often, rewired expectations around the inbox. Volume became normal. Attention thinned. What once felt like correspondence started to feel like clutter. It began in a Massachusetts mill, with a marketer who thought like an engineer, an invitation that seemed harmless, and an inbox that suddenly didn't feel so clean.
+From there the pattern spread. Small steps, repeated often, rewired expectations around the inbox. Volume became normal. Attention thinned. What was once correspondence started to feel like clutter. It began in a Massachusetts mill, with a marketer who thought like an engineer, an invitation that seemed harmless, and an inbox that suddenly didn't feel so clean.
