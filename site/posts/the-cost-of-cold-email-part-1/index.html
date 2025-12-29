@@ -1,56 +1,517 @@
----
-title: "The Cost of Cold Email (Part I)"
-description: "A Fermi estimate of an unpriced externality."
-date: 2025-12-29
-tags: [sales, outbound, email, economics, ethics]
----
 
-# The Cost of Cold Email (Part I)
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A Fermi estimate of an unpriced externality.">
+      
+      
+      
+      
+        <link rel="prev" href="../intent-data/">
+      
+      
+      
+      <link rel="icon" href="/assets/portrait_logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
+    
+    
+      
+        <title>The Cost of Cold Email (Part I) - CleanOutbound.com</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      
+      
 
-**A Fermi estimate of an unpriced externality**
 
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-cost-of-cold-email-part-i" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="CleanOutbound.com" class="md-header__button md-logo" aria-label="CleanOutbound.com" data-md-component="logo">
+      
+  <img src="/assets/portrait_logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CleanOutbound.com
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              The Cost of Cold Email (Part I)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CleanOutbound.com" class="md-nav__button md-logo" aria-label="CleanOutbound.com" data-md-component="logo">
+      
+  <img src="/assets/portrait_logo.png" alt="logo">
+
+    </a>
+    CleanOutbound.com
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Posts
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Posts
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../outbound-is-dirty/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Outbound is Dirty
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../parasitic-sales/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Parasitic Sales
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-day-of-the-blast/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The Day of the Blast
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-red-queen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The Red Queen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-gospel-of-growth/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The Gospel of Growth
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../email-warming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Explainer: Email Warming
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../intent-data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Explainer: Intent Data
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    The Cost of Cold Email (Part I)
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="the-cost-of-cold-email-part-i">The Cost of Cold Email (Part I)</h1>
+<p><strong>A Fermi estimate of an unpriced externality</strong></p>
 <!--
 <span style="font-size: 0.65rem; color: #888;">Published: December 29, 2025</span>
 -->
 
-<span style="color: #777;">
+<p><span style="color: #777;">
 Cold B2B email extracts at least $25 billion worth of attention each year. The burden falls disproportionately on the people with the highest leverage in their companies. In isolation, each message feels like a harmless nuisance. Aggregated across millions of inboxes, their cost rivals regulated economic externalities.
-</span>
-
+</span></p>
 <p style="margin-top: 1.5rem;"><strong>The twelfth email</strong></p>
 
-A VP of Sales at a SaaS company that has just announced a Series B begins her day with twelve cold emails in her inbox. She deletes eleven without opening them as her eyes flick down the list. The twelfth is from a vendor whose product she actually needs, but she deletes it too. The reflex has already taken over.
-
-Three time zones east, a CMO at a cloud infrastructure company opens his laptop hoping to finish a quarterly update for his team before lunch. Unbeknownst to him, his marketing department posted a job listing the night before. His phone buzzes. New email. Subject line: "Following up on our conversation." He opens it. A vendor he has never heard of offers to help him scale his team. He screenshots the message and drafts a LinkedIn post about questionable outreach tactics. The quarterly update will wait until after lunch.
-
-In London, a founder closes a tab containing a term sheet from her lead investor. She had meant to reply that morning, but the email had slipped below the fold overnight, buried under nineteen messages from sales automation platforms, recruiting firms, and an AI startup that wants to help her "scale founder-led sales." She finds it three hours later. By then, her investor has pinged her board member to ask whether everything is alright.
-
-A few days later, the VP of Sales receives a follow-up to that twelfth email. It is the second touch in a four-touch sequence programmed by the same go-to-market engineer behind all the outreach described above. This time she opens it. It is relevant, though she resents the invented familiarity in the subject line. A few weeks later, her company becomes a customer.
-
-The CMO and the founder will never know this, but their lost time and attention underwrote the seller's discovery of the VP of Sales. Millions underwrite this every day.
-
-How big is their cost?
-
+<p>A VP of Sales at a SaaS company that has just announced a Series B begins her day with twelve cold emails in her inbox. She deletes eleven without opening them as her eyes flick down the list. The twelfth is from a vendor whose product she actually needs, but she deletes it too. The reflex has already taken over.</p>
+<p>Three time zones east, a CMO at a cloud infrastructure company opens his laptop hoping to finish a quarterly update for his team before lunch. Unbeknownst to him, his marketing department posted a job listing the night before. His phone buzzes. New email. Subject line: "Following up on our conversation." He opens it. A vendor he has never heard of offers to help him scale his team. He screenshots the message and drafts a LinkedIn post about questionable outreach tactics. The quarterly update will wait until after lunch.</p>
+<p>In London, a founder closes a tab containing a term sheet from her lead investor. She had meant to reply that morning, but the email had slipped below the fold overnight, buried under nineteen messages from sales automation platforms, recruiting firms, and an AI startup that wants to help her "scale founder-led sales." She finds it three hours later. By then, her investor has pinged her board member to ask whether everything is alright.</p>
+<p>A few days later, the VP of Sales receives a follow-up to that twelfth email. It is the second touch in a four-touch sequence programmed by the same go-to-market engineer behind all the outreach described above. This time she opens it. It is relevant, though she resents the invented familiarity in the subject line. A few weeks later, her company becomes a customer.</p>
+<p>The CMO and the founder will never know this, but their lost time and attention underwrote the seller's discovery of the VP of Sales. Millions underwrite this every day.</p>
+<p>How big is their cost?</p>
 <p style="margin-top: 1.5rem;"><strong>I did not ask for this Big Mac</strong></p>
 
-The first burden of an unwanted email is the time it takes to process it.
-
-A recipient sees a subject line and, judging it irrelevant, deletes it. A few seconds. Occasionally they read. A few seconds more. Rarely do they respond. Even then, the time is measured in seconds or minutes, perhaps small enough to ignore.
-
-The larger cost is recovery: the time required to return to the task that was interrupted. Experimental studies show that workers take at least ten minutes to fully resume a task after an interruption.¹ The seconds of processing are dwarfed by the minutes of recovery.
-
-A skeptic objects: most people batch-process email. They check once an hour, handle everything at once, and pay the recovery cost only once, not per message.
-
-The objection is half right. Pure batching would share recovery across the batch. But pure batching is rare. Phones buzz. Notifications leak through. Subject lines catch the eye mid-meeting.
-
-In practice, batching is imperfect. Some emails break through in real time — call it batch leakage. If even a fraction of cold emails act as interruptions, recovery time dominates. At 40% leakage, the expected cost of processing and recovery per cold email is on the order of a minute.²
-
-Now price that time.
-
-Assume our VP of Sales earns $250,000 a year in total compensation, a fair figure for a VC-backed SaaS scale-up. That places the cost of her time at roughly $125 per hour. One minute of interruption is about two dollars and twenty cents, the price of a McDonald's coffee.
-
-But compensation prices time, not output. A single decision by a senior leader can redirect the work of dozens of people, reallocate millions in spend, or alter the trajectory of an entire quarter. Standard labor economics values a worker's output at roughly three times their compensation to cover salary, benefits, and overhead. That cost-coverage logic does not apply to senior decision-makers, who are hired to generate returns rather than break even. In practice, their leverage is often much higher.³ I will use a conservative multiple of five times compensation. At that level, a two-dollar coffee becomes an eleven-dollar Big Mac meal.
-
+<p>The first burden of an unwanted email is the time it takes to process it.</p>
+<p>A recipient sees a subject line and, judging it irrelevant, deletes it. A few seconds. Occasionally they read. A few seconds more. Rarely do they respond. Even then, the time is measured in seconds or minutes, perhaps small enough to ignore.</p>
+<p>The larger cost is recovery: the time required to return to the task that was interrupted. Experimental studies show that workers take at least ten minutes to fully resume a task after an interruption.¹ The seconds of processing are dwarfed by the minutes of recovery.</p>
+<p>A skeptic objects: most people batch-process email. They check once an hour, handle everything at once, and pay the recovery cost only once, not per message.</p>
+<p>The objection is half right. Pure batching would share recovery across the batch. But pure batching is rare. Phones buzz. Notifications leak through. Subject lines catch the eye mid-meeting.</p>
+<p>In practice, batching is imperfect. Some emails break through in real time — call it batch leakage. If even a fraction of cold emails act as interruptions, recovery time dominates. At 40% leakage, the expected cost of processing and recovery per cold email is on the order of a minute.²</p>
+<p>Now price that time.</p>
+<p>Assume our VP of Sales earns $250,000 a year in total compensation, a fair figure for a VC-backed SaaS scale-up. That places the cost of her time at roughly $125 per hour. One minute of interruption is about two dollars and twenty cents, the price of a McDonald's coffee.</p>
+<p>But compensation prices time, not output. A single decision by a senior leader can redirect the work of dozens of people, reallocate millions in spend, or alter the trajectory of an entire quarter. Standard labor economics values a worker's output at roughly three times their compensation to cover salary, benefits, and overhead. That cost-coverage logic does not apply to senior decision-makers, who are hired to generate returns rather than break even. In practice, their leverage is often much higher.³ I will use a conservative multiple of five times compensation. At that level, a two-dollar coffee becomes an eleven-dollar Big Mac meal.</p>
 <div class="co-exhibit co-exhibit--cost">
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
@@ -212,20 +673,13 @@ But compensation prices time, not output. A single decision by a senior leader c
 
 <p style="margin-top: 1.5rem;"><strong>Terminal compression</strong></p>
 
-This is an order-of-magnitude exercise. The goal is to map the victims, count their wounds, and weigh the damage.
-
-LinkedIn has roughly 360 million users in North America and Europe.⁴ Narrow to managerial or decision-making roles and the number drops to around 39 million.
-
-Of these, about 27 million sit outside the typical B2B sales Ideal Customer Profile (ICP). They hold titles that suggest authority but work in industries, company sizes, or functions that outbound teams rarely target. They might see a cold email every week or two.
-
-Narrow again to those inside the ICP and the number falls to 12 million. Of those, 7 million are "champions" — directors and senior managers who influence purchasing decisions but lack final authority. They receive around ten cold emails per week.
-
-The remaining 5 million — VPs, C-level executives, and founders — sit at the tip of the cone. Our VP of Sales sits here too. So does the CMO drafting his LinkedIn outrage post and the founder who ignored her investor.
-
-At the tip, the volume explodes. The modern sales stack is built on shared intelligence: vendors buy the same contact databases, filter for the same "decision-maker" titles, and react to the same signals. When a company announces a Series B or posts a job listing, it acts as a flare gun, triggering thousands of automated sequences simultaneously. The moment an inbox becomes valuable to one seller, it is likely becoming valuable to many others too.
-
-The average recipient in this tier absorbs thirty per week. The top decile sees fifty or more, with upper-bound cases in high-activity sectors exceeding a hundred
-
+<p>This is an order-of-magnitude exercise. The goal is to map the victims, count their wounds, and weigh the damage.</p>
+<p>LinkedIn has roughly 360 million users in North America and Europe.⁴ Narrow to managerial or decision-making roles and the number drops to around 39 million.</p>
+<p>Of these, about 27 million sit outside the typical B2B sales Ideal Customer Profile (ICP). They hold titles that suggest authority but work in industries, company sizes, or functions that outbound teams rarely target. They might see a cold email every week or two.</p>
+<p>Narrow again to those inside the ICP and the number falls to 12 million. Of those, 7 million are "champions" — directors and senior managers who influence purchasing decisions but lack final authority. They receive around ten cold emails per week.</p>
+<p>The remaining 5 million — VPs, C-level executives, and founders — sit at the tip of the cone. Our VP of Sales sits here too. So does the CMO drafting his LinkedIn outrage post and the founder who ignored her investor.</p>
+<p>At the tip, the volume explodes. The modern sales stack is built on shared intelligence: vendors buy the same contact databases, filter for the same "decision-maker" titles, and react to the same signals. When a company announces a Series B or posts a job listing, it acts as a flare gun, triggering thousands of automated sequences simultaneously. The moment an inbox becomes valuable to one seller, it is likely becoming valuable to many others too.</p>
+<p>The average recipient in this tier absorbs thirty per week. The top decile sees fifty or more, with upper-bound cases in high-activity sectors exceeding a hundred</p>
 <div class="co-exhibit co-exhibit--compression">
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
@@ -521,20 +975,14 @@ The average recipient in this tier absorbs thirty per week. The top decile sees 
   </div>
 </div>
 
-Sum the volume. The base of the cone absorbs a trickle. The middle absorbs a steady stream. The tip absorbs a flood. Aggregated across these tiers, roughly 50 million cold emails land in the inboxes of managers and executives every day across North America and Europe.
-
+<p>Sum the volume. The base of the cone absorbs a trickle. The middle absorbs a steady stream. The tip absorbs a flood. Aggregated across these tiers, roughly 50 million cold emails land in the inboxes of managers and executives every day across North America and Europe.</p>
 <p style="margin-top: 1.5rem;"><strong>Your total bill sir</strong></p>
 
-Now multiply.
-
-At the McDonald's coffee estimate — $2 per email, compensation-based, no leverage adjustment — that is roughly $100 million per day, or over $25 billion per year across North America and Europe.
-
-At the Big Mac meal estimate — $11 per email, adjusted for executive leverage — the figure rises to over $500 million per day. Over a year, it exceeds $130 billion. These figures cover only North America and Europe. A global estimate would add perhaps another 20 to 30 percent.
-
-A fair objection:⁶ the model assumes similar exec pay and leverage across all 39 million recipients. Does everyone earn like our VP of Sales?
-
-In reality, compensation and leverage vary across the cone. The 5 million at the tip likely earn more than $250,000 and carry leverage well above 5x. The 27 million at the base earn less and carry lower leverage. But volume follows the same gradient: those at the tip receive the most email, those at the base the least. The errors largely offset. If anything, the estimate is conservative: the people receiving the most email are precisely those whose time is most expensive.
-
+<p>Now multiply.</p>
+<p>At the McDonald's coffee estimate — $2 per email, compensation-based, no leverage adjustment — that is roughly $100 million per day, or over $25 billion per year across North America and Europe.</p>
+<p>At the Big Mac meal estimate — $11 per email, adjusted for executive leverage — the figure rises to over $500 million per day. Over a year, it exceeds $130 billion in lost productivity. These figures cover only North America and Europe. A global estimate would add perhaps another 20 to 30 percent.</p>
+<p>A fair objection:⁶ the model assumes similar exec pay and leverage across all 39 million recipients. Does everyone earn like our VP of Sales?</p>
+<p>In reality, compensation and leverage vary across the cone. The 5 million at the tip likely earn more than $250,000 and carry leverage well above 5x. The 27 million at the base earn less and carry lower leverage. But volume follows the same gradient: those at the tip receive the most email, those at the base the least. The errors largely offset. If anything, the estimate is conservative: the people receiving the most email are precisely those whose time is most expensive.</p>
 <div class="co-exhibit co-exhibit--crosscheck">
   <style>
     .co-exhibit--crosscheck {
@@ -630,32 +1078,20 @@ In reality, compensation and leverage vary across the cone. The 5 million at the
 
 <p style="margin-top: 1.5rem;"><strong>The sludge</strong></p>
 
-The direct cost of cold email is time. But cold email also imposes a system-level effect: it degrades trust in the inbox itself.
-
-Think of airport security before and after 9/11. Before, you walked to the gate. After, you arrive two hours early, remove your shoes, unpack your laptop, and stand in line. The threat is rare and the overwhelming majority of passengers pose no risk. The friction applies, however, to everyone.
-
-The behavioral economist Cass Sunstein coined a term for this kind of friction: sludge, a muck that accumulates in human systems and slows everything down.¹⁰
-
-A partner sends a message with the subject line "Quick question." In a clean inbox, you click immediately. In a polluted inbox, you pause. You hover over the sender name. You check the domain. You scan for tells. The subject line uses familiar camouflage to mimic legitimate correspondence. "Re: our conversation." "Following up." "Quick question."
-
-If you ignore the email, another arrives three days later. Modern sales tools automate persistence. The same thread returns to the top of your inbox, forcing you to make the same decision again. The sludge compounds.
-
-Why not simply delete everything unfamiliar? Because the cost of missing a real signal could be high. Among the noise, there might be a message from a potential acquirer, a journalist, or a partner. The cost of missing a legitimate signal forces vigilance. You cannot afford to skim, so you stay alert even when you would rather not.
-
-How large is this friction? It cannot be measured directly, but it can be bounded.
-
-Decision-makers at the tip of the cone, the 12 million champions and executives inside the ICP, spend roughly two and a half hours per day on email.¹¹ At a leverage-adjusted hourly value of $875, that represents nearly $7 trillion in time value spent on email annually across North America and Europe.
-
-If sludge adds just 5 percent friction to email processing, the cost is roughly $340 billion per year. Even at 1 percent, a drag you wouldn't register consciously, it's $70 billion.
-
-Even at the low end, the second-order cost of sludge exceeds the direct cost of cold email itself.
-
+<p>The direct cost of cold email is time. But cold email also imposes a system-level effect: it degrades trust in the inbox itself.</p>
+<p>Think of airport security before and after 9/11. Before, you walked to the gate. After, you arrive two hours early, remove your shoes, unpack your laptop, and stand in line. The threat is rare and the overwhelming majority of passengers pose no risk. The friction applies, however, to everyone.</p>
+<p>The behavioral economist Cass Sunstein coined a term for this kind of friction: sludge, a muck that accumulates in human systems and slows everything down.¹⁰</p>
+<p>A partner sends a message with the subject line "Quick question." In a clean inbox, you click immediately. In a polluted inbox, you pause. You hover over the sender name. You check the domain. You scan for tells. The subject line uses familiar camouflage to mimic legitimate correspondence. "Re: our conversation." "Following up." "Quick question."</p>
+<p>If you ignore the email, another arrives three days later. Modern sales tools automate persistence. The same thread returns to the top of your inbox, forcing you to make the same decision again. The sludge compounds.</p>
+<p>Why not simply delete everything unfamiliar? Because the cost of missing a real signal could be high. Among the noise, there might be a message from a potential acquirer, a journalist, or a partner. The cost of missing a legitimate signal forces vigilance. You cannot afford to skim, so you stay alert even when you would rather not.</p>
+<p>How large is this friction? It cannot be measured directly, but it can be bounded.</p>
+<p>Decision-makers at the tip of the cone, the 12 million champions and executives inside the ICP, spend roughly two and a half hours per day on email.¹¹ At a leverage-adjusted hourly value of $875, that represents nearly $7 trillion in time value spent on email annually across North America and Europe.</p>
+<p>If sludge adds just 5 percent friction to email processing, the cost is roughly $340 billion per year. Even at 1 percent, a drag you wouldn't register consciously, it's $70 billion.</p>
+<p>Even at the low end, the second-order cost of sludge exceeds the direct cost of cold email itself.</p>
 <p style="margin-top: 1.5rem;"><strong>In good company</strong></p>
 
-How much is $25 billion?
-
-One way to answer that is in comparison to other negative externalities— costs imposed on third parties who did not choose to bear them— that societies already track and regulate.
-
+<p>How much is $25 billion?</p>
+<p>One way to answer that is in comparison to other negative externalities— costs imposed on third parties who did not choose to bear them— that societies already track and regulate.</p>
 <div class="co-exhibit co-exhibit--externalities">
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
@@ -892,30 +1328,19 @@ One way to answer that is in comparison to other negative externalities— costs
   </div>
 </div>
 
-These figures come from different models and measurement methods. The question is not whether the burdens are identical in nature, but whether they sit in the same economic range. On this scale, cold email is unremarkable.
-
-At the conservative end, its cost exceeds the global damage from ocean plastic pollution. At the leverage-adjusted level, it rivals the impact of nitrogen and phosphorus contamination in US waterways. Including sludge, it sits in the same range as the economic cost of motor vehicle crashes in the United States.
-
-These are not marginal nuisances. They are large, persistent burdens that justify regulation, monitoring, and public debate. By scale alone, the attention cost of cold outbound belongs in the same category. Yet it remains largely untracked.
-
-There is an obvious moral difference. Email does not poison lungs, erode topsoil, or cause physical injury. But consider “junk fax”.
-
-In the 1990s, unsolicited fax advertising, junk fax, became so widespread that the U.S. Congress banned it. The legal battle was so fierce that it dragged on for decades, reaching the Supreme Court as recently as 2019.
-
-Why did we spend thirty years fighting over a relic? Because the cost to recipients was tangible:¹³ paper, toner, machine wear. You could hold the wasted paper. You could measure the depleted toner. That tangible burden was roughly $200 million a year in today's dollars¹⁴, and that was enough to trigger a federal ban.
-
-We regulate smokestacks because the smoke is seen and soot piles up over time. We regulate noise because everyone hears the same late party and decibels can be measured. We regulated junk fax because you could hold the waste in your hand. Cold email leaves nothing: nothing to measure and nothing to hold.
-
+<p>These figures come from different models and measurement methods. The question is not whether the burdens are identical in nature, but whether they sit in the same economic range. On this scale, cold email is unremarkable.</p>
+<p>At the conservative end, its cost exceeds the global damage from ocean plastic pollution. At the leverage-adjusted level, it rivals the impact of nitrogen and phosphorus contamination in US waterways. Including sludge, it sits in the same range as the economic cost of motor vehicle crashes in the United States.</p>
+<p>These are not marginal nuisances. They are large, persistent burdens that justify regulation, monitoring, and public debate. By scale alone, the attention cost of cold outbound belongs in the same category. Yet it remains largely untracked.</p>
+<p>There is an obvious moral difference. Email does not poison lungs, erode topsoil, or cause physical injury. But consider “junk fax”.</p>
+<p>In the 1990s, unsolicited fax advertising, junk fax, became so widespread that the U.S. Congress banned it. The legal battle was so fierce that it dragged on for decades, reaching the Supreme Court as recently as 2019.</p>
+<p>Why did we spend thirty years fighting over a relic? Because the cost to recipients was tangible:¹³ paper, toner, machine wear. You could hold the wasted paper. You could measure the depleted toner. That tangible burden was roughly $200 million a year in today's dollars¹⁴, and that was enough to trigger a federal ban.</p>
+<p>We regulate smokestacks because the smoke is seen and soot piles up over time. We regulate noise because everyone hears the same late party and decibels can be measured. We regulated junk fax because you could hold the waste in your hand. Cold email leaves nothing: nothing to measure and nothing to hold.</p>
 <p style="margin-top: 1.5rem;"><strong>A red herring</strong></p>
 
-What about the carbon?
-
-Global email volume is vast: roughly 375 billion messages a day. A persistent claim holds that all this traffic carries a meaningful carbon footprint, with every message adding 4 grams of CO₂ to the atmosphere.
-
-The claim has been debunked repeatedly.¹⁵ Credible estimates of global email energy use converge around 2 to 5 TWh per year—less than the UK spends boiling kettles, less than the United States spends on Christmas lights, less than the world spends streaming cat videos. Cold B2B email is a rounding error within that rounding error: 50 to 70 million messages against 375 billion, perhaps 0.02 percent of the total.
-
-The carbon argument was always a distraction. Energy is cheap, and getting cheaper. Attention is scarce, and getting scarcer. The problem with cold email was never the electricity.
-
+<p>What about the carbon?</p>
+<p>Global email volume is vast: roughly 375 billion messages a day. A persistent claim holds that all this traffic carries a meaningful carbon footprint, with every message adding 4 grams of CO₂ to the atmosphere.</p>
+<p>The claim has been debunked repeatedly.¹⁵ Credible estimates of global email energy use converge around 2 to 5 TWh per year—less than the UK spends boiling kettles, less than the United States spends on Christmas lights, less than the world spends streaming cat videos. Cold B2B email is a rounding error within that rounding error: 50 to 70 million messages against 375 billion, perhaps 0.02 percent of the total.</p>
+<p>The carbon argument was always a distraction. Energy is cheap, and getting cheaper. Attention is scarce, and getting scarcer. The problem with cold email was never the electricity.</p>
 <style>
 .co-footnotes {
   font-size: 0.85em;
@@ -962,3 +1387,62 @@ The carbon argument was always a distraction. Energy is cheap, and getting cheap
 <p>¹⁵ The "4g CO₂ per email" figure, popularized by Mike Berners-Lee, misattributes fixed data-center infrastructure costs to individual messages. The marginal cost of transmission is effectively zero — most energy expenditure comes from the device already running while the email is composed, energy that would be consumed regardless. Credible estimates from the IEA (2–3 TWh/year), the Carbon Trust (1–4 TWh/year), the Shift Project (~2 TWh/year), and the Journal of Industrial Ecology (1–5 TWh/year) all converge on the 2–5 TWh range. Berners-Lee's upper bound of 110–130 TWh/year is now considered outdated. See Andrew J. Whelton's "4g CO₂ per email—Really?" for the full breakdown.
 
 </div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.expand"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+      
+    
+  </body>
+</html>
