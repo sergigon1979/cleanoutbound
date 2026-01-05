@@ -37,15 +37,13 @@ This treadmill is what biologist Leigh Van Valen named the Red Queen effect, aft
 
 > “Now, here, you see, it takes all the running you can do, to keep in the same place.”
 
-Van Valen argued that species aren’t just adapting to their environments. They’re adapting to each other’s adaptations, a coevolutionary arms race. “Continuing development,” he wrote in 1973, “is needed just in order to maintain fitness relative to the systems it is co-evolving with.”
+Van Valen argued that species aren’t just adapting to their environments but to each other’s adaptations. A coevolutionary arms race. “Continuing development,” he wrote in 1973, “is needed just in order to maintain fitness relative to the systems it is co-evolving with.”
 
 Carroll himself admired the Dover cliffs on his Channel crossings. He could never have guessed his whimsical queen would end up as one of biology’s most durable metaphors. But here we are.
 
-<!--
 <div style="text-align: center; margin: 2rem 0 0.5rem 0;">
   <img src="../../assets/Viking.png" alt="Cartoon of Viking blowing a giant sea shell" style="max-width: 65%; height: auto; border-radius: 6px;">
 </div>
--->
 
 **III. The First Bite**
 
@@ -65,9 +63,9 @@ But the incentives pointed in a different direction: Thuerk’s bosses publicly 
 
 Once the payoff was visible, escalation was inevitable. Cultural defenses were brittle; infrastructure offered leverage. The richest seam was the “open relay”: a misconfigured mail server willing to forward anything for anyone. It was as if every post office in the world agreed to deliver any sack of letters, free of charge, no questions asked. Overnight, the cost of sending collapsed toward zero and a single stunt became industrial practice.
 
-Prey response: the first filters. They were laughably simple, scanning for banned words like “Viagra.” For a moment, it worked.
+The first filters arrived soon. They were laughably simple, scanning for banned words like “Viagra.” For a moment, it worked.
 
-Counter-move: “Viagra” became “V1agra.” Spammers padded messages with invisible gibberish to dilute the signal and confuse the filters. Each shell provoked a sharper claw.
+Then “Viagra” became “V1agra.” Spammers padded messages with invisible gibberish to dilute the signal and confuse the filters. Each shell provoked a sharper claw.
 
 And then the abstract threat acquired a face. In 1994, a husband-and-wife legal team, Laurence Canter and Martha Siegel, posted ads for their immigration law services across thousands of Usenet groups. The pitch was ordinary; the method was not. By blanketing nearly every discussion board, they turned a small ad into a network-wide nuisance. The backlash was instant. Canter and Siegel became the “Green Card Lawyers,” briefly the most hated people on the internet, and for many this was the moment spam felt less like an annoyance and more like an invasive species.
 
@@ -86,13 +84,11 @@ On the technical front, programmer Paul Graham published *A Plan for Spam* in 20
 
 Meanwhile, lawmakers tried to legislate the problem away. The CAN-SPAM Act of 2003 sounded decisive. It wasn’t. The law was a clumsy shell, full of holes.
 
-The predators, of course, adapted to both.
+Neither defense hold for long.
 
-One counter was “random word salad.” Spammers stuffed emails with chunks of legitimate text — stolen from novels, news stories, even other emails — to push the probabilities back in their favor. Camouflage by ordinary English.
+The counter to Bayesian filters was “random word salad.” Spammers stuffed emails with chunks of legitimate text — stolen from novels, news stories, even other emails — to push the probabilities back in their favor. Camouflage by ordinary English.
 
 When that faltered, they tried another mutation: image-only spam. The message was no longer text at all, but a JPEG of the ad. A human eye could read it instantly. A Bayesian filter, which only looked at words, saw nothing.
-
-Every thicker shell met with a sharper claw.
 
 **VI. Botnets and Blackouts**
 
