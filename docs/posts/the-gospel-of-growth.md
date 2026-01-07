@@ -50,12 +50,10 @@ year-long implementations, you could be up and running in a week. Upgrades, once
 dreaded ritual, now happened automatically, in the background, for free. By the mid-2000s, 
 Salesforce had redefined how software was built, sold, and used. 
 
-<!--
 <div style="text-align: center; margin: 2rem 0 0.5rem 0;">
   <img src="../../assets/fake-protest.png" alt="Salesforce actors protesting Siebel" style="max-width: 70%; height: auto; border-radius: 6px;">
   <div style="font-size: 0.7rem; color: #666;">Salesforce actors, delivering SaaS with maximum cringe.</div>
 </div>
--->
 
 But this new model ran headfirst into a very old problem. The prevailing wisdom for how to 
 actually sell the stuff was a relic from the age of Siebel. 
@@ -77,12 +75,10 @@ over years. SaaS as a business model broke that pattern. Contracts were smaller,
 more frequent, and growth depended less on a few heroic closers than on a system that 
 could generate wins week after week. The Natural’s style simply didn’t scale to that world. 
 
-<!--
 <div style="text-align: center; margin: 2rem 0 0.5rem 0;">
   <img src="../../assets/don-draper.png" alt="Mad Men style seller" style="max-width: 70%; height: auto; border-radius: 6px;">
   <div style="font-size: 0.7rem; color: #666;">“Guess what Salesforce’s recruiter said?”</div>
 </div>
--->
 
 **III. The Systems Thinker**
 
