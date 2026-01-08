@@ -15,7 +15,7 @@ nav:
   - "": index.md
   - Posts:
       - "Outbound is Dirty": posts/outbound-is-dirty.md
-      - "Parasitic Sales": posts/parasitic-sales.md
+      # - "Parasitic Sales": posts/parasitic-sales.md
       # - "Degrees of Clean": posts/degrees-of-clean.md 
       - "The Day of the Blast": posts/the-day-of-the-blast.md
       - "The Red Queen": posts/the-red-queen.md
