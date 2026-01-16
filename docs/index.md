@@ -33,5 +33,5 @@ This is written for those growing skeptical of the received wisdom. If you still
 </p>
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="../../assets/fish.png" alt="Cartoon illustrating the tragedy of the commons in outbound sales" style="max-width: 100%; height: auto;">
+  <img src="../../assets/fish.png" alt="Cartoon illustrating the tragedy of the commons in outbound sales" style="max-width: 80%; height: auto;">
 </div>
