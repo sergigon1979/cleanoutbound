@@ -27,7 +27,7 @@ If you’re looking for outbound tips, this is the wrong place.</em>
 <div style="text-align: center; margin: 1.5rem 0 0 0;">
   <img src="../../assets/fish.png" 
        alt="Cartoon illustrating the tragedy of the commons in outbound sales" 
-       style="max-width: 85%; height: auto; margin-bottom: -20px;">
+       style="max-width: 75%; height: auto; margin-bottom: -20px;">
 </div>
 
 </div>
