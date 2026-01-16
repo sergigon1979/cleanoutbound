@@ -2,8 +2,8 @@ site_name: "CleanOutbound.com"
 
 theme:
   name: material
-  logo: assets/portrait_logo.png
-  favicon: assets/portrait_logo.png
+  logo: assets/fish-face.png
+  favicon: assets/fish-face.png
   features:
    - navigation.expand
   

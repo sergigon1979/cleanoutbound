@@ -1,0 +1,28 @@
+/* Hide big grey page title on homepage only, keep blue header bar */
+.md-main .md-content__inner h1:first-of-type {
+    display: none;
+}
+
+.hero {
+  text-align: left;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-top: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero h1 {
+  font-size: 2.0rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 0.8rem;
+  max-width: 800px;
+  margin: 0 auto 1rem auto;
+  line-height: 1.6;
+}

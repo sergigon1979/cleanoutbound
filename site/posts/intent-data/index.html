@@ -1,0 +1,665 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="What is Intent Data, how is it manufactured, and why is it (probably) wrong most of the time">
+      
+      
+      
+      
+        <link rel="prev" href="../email-warming/">
+      
+      
+        <link rel="next" href="../the-cost-of-cold-email-part-1/">
+      
+      
+      <link rel="icon" href="../../assets/portrait_logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
+    
+    
+      
+        <title>Explainer: Intent Data - CleanOutbound.com</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#explainer-intent-data" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="CleanOutbound.com" class="md-header__button md-logo" aria-label="CleanOutbound.com" data-md-component="logo">
+      
+  <img src="../../assets/portrait_logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CleanOutbound.com
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Explainer: Intent Data
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CleanOutbound.com" class="md-nav__button md-logo" aria-label="CleanOutbound.com" data-md-component="logo">
+      
+  <img src="../../assets/portrait_logo.png" alt="logo">
+
+    </a>
+    CleanOutbound.com
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Posts
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Posts
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../outbound-is-dirty/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Outbound is Dirty
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-day-of-the-blast/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The Day of the Blast
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-red-queen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The Red Queen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-gospel-of-growth/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The Gospel of Growth
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../email-warming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Explainer: Email Warming
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Explainer: Intent Data
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-cost-of-cold-email-part-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The Cost of Cold Email (Part I)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-screech/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The Screech
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="explainer-intent-data">Explainer: Intent Data</h1>
+<p><strong>What is "Intent Data", how is it manufactured, and why is it (probably) wrong most of the time.</strong></p>
+<!--
+<span style="font-size: 0.65rem; color: #888;">Published: October 23, 2025</span>
+-->
+
+<p><span style="color: #777;">
+The promise of intent data is to replace guesswork with a clear signal of who will buy next.<br />
+The flaw in the promise is that this signal is not a direct measurement of interest, but a<br />
+low-fidelity guess dressed up to look like a data point worth acting on.
+</span></p>
+<p><strong>The next buyer question</strong></p>
+<p>Every go-to-market leader is vexed by the same question: who is ready to buy right now?  </p>
+<p>In pursuit of an answer, an industry formed around an irresistible promise: the power to see<br />
+tomorrow’s buyers before they raise their hands, to replace guesswork with data. This<br />
+promise has fueled a multi-billion dollar market, with over 70% of B2B go-to-market teams now<br />
+using intent data in some form.  </p>
+<p>Yet for a product this valuable, its origins are surprisingly opaque. To understand what’s really<br />
+being sold, it helps to follow the trail back to its source.  </p>
+<p><strong>Bidstream: the raw material</strong></p>
+<p>The story begins, unexpectedly, in advertising.</p>
+<p>When a webpage loads, the empty rectangle where an advert will appear doesn’t yet have a buyer. In the milliseconds before it becomes visible, an automated dynamic auction takes place. Hundreds of bidders receive a tiny packet of data — the page’s topic, device type, rough location, and IP address — and decide whether to bid. If that packet shows a reader in Florida in July, for instance, air conditioner companies are far more likely to bid higher and win the auction.</p>
+<p>The primary purpose of each dynamic auction is to sell a single ad impression, so the value of the broadcasted data packet was never intended to be more than ephemeral, lasting only long enough to price that one moment of attention.</p>
+<p>But publishers and ad exchanges soon realized there was a by-product — the trail of metadata left by billions of such auctions — that was a valuable asset in its own right. This aggregate trail is the <strong>bidstream</strong>. A secondary market quickly formed, with data brokers emerging to buy, aggregate, and resell this torrent of data.</p>
+<p><strong>Guessing and dressing identities</strong></p>
+<p>The enrichment vendors that buy these feeds face a simple obstacle: the data show what<br />
+pages were viewed, but not who viewed them. To turn a potential intent signal into<br />
+something a marketeer or salesperson can act on, they must first guess which company it<br />
+came from.  </p>
+<p>That task falls to IP-mapping vendors like KickFire, Clearbit Reveal, and Leadfeeder. They<br />
+maintain huge databases linking IP address ranges to corporate networks. Some of those<br />
+links come from public routing records — the internet’s address book — but most are<br />
+inferred from observation. If traffic from a certain range keeps hitting both Salesforce<br />
+documentation and Salesforce’s careers page, the algorithm quietly labels that network<br />
+“Salesforce.”  </p>
+<p>Once the web traffic is associated with companies, enrichment firms take over. They classify the pages being read into business topics like “HR system migration,” “payroll software,” or “Workday alternatives.” When enough visits from one network cluster around a theme, the system records a “topic surge.” Some vendors go further, layering in other data points—hiring trends, funding rounds, technology installs—to build what they call "composite intent signals", the claim being that combining many weak indicators yields a stronger, more reliable signal.</p>
+<p><strong>To put a bow on it</strong></p>
+<p>By now, the data has already passed through several hands. The ad exchange sells the packet, the broker sells the feed, and a chain of specialists reshapes it: IP-mapping firms guess which company each address belongs to; enrichment vendors classify pages into business topics and aggregate these patterns into the composite “intent” scores. </p>
+<p>And finally, platform integrators like ZoomInfo and 6sense package this manufactured signal for go-to-market teams. Marketing uses it for account-based targeting; sales uses it to prioritise outreach. The dashboard turns those probabilities into something that looks decisive: <em>“Acme Manufacturing - HR system migration interest up 28% week over week”</em>.</p>
+<!--
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="../../assets/five_candidates.png" alt="Five candidates representing probabilistic identity mapping" style="max-width: 100%; height: auto;">
+</div>
+-->
+
+<p><strong>Acme Manufacturing</strong></p>
+<p>Lean back and watch the full motion unfold.  </p>
+<p>A job candidate, connected to the guest Wi-Fi while waiting in the lobby of Acme<br />
+Manufacturing, scrolls through the websites of Workday and BambooHR: two other firms<br />
+where he’s also applied for roles.  </p>
+<p>Each site he visits fires a bidstream ping. An ad exchange broadcasts the details; a data<br />
+broker captures the packet and sells the feed. Days later, at an enrichment firm, that lobby<br />
+Wi-Fi’s IP address is matched to Acme Manufacturing, the candidate’s browsing is tagged as<br />
+corporate-level interest in “HR system migration,” and the activity registers as a surge.  </p>
+<p>The surge alert enters BambooHR’s marketing automation system, where Acme<br />
+Manufacturing’s account score ticks upward, finally hitting some arbitrary threshold, which<br />
+flags it as a Marketing-Qualified Account and routes it to Sales. A task is queued in the CRM<br />
+for John, an SDR at BambooHR. After returning from his coffee break, he places a call.  </p>
+<p>The phone rings in the office of Acme’s Head of People Ops, the very manager who<br />
+interviewed the candidate. She picks up, still drafting a polite rejection note, and hears:  </p>
+<blockquote>
+<p>“I noticed you’re exploring new HR systems.”  </p>
+</blockquote>
+<p><strong>Where the guesswork breaks</strong></p>
+<p>The common critique of intent data is that its signal is weak because context is lost at each<br />
+step: turning a page view into an IP address, an IP into a company, and a company into a<br />
+trend. But this framing is too generous. It implies a real, person-level signal existed at the<br />
+start, only to be stripped of its meaning.  </p>
+<p>The opposite happens. The process begins with something inherently indeterminate —<br />
+anonymous web traffic¹ — and adds layers of conjecture. Fidelity isn’t lost; it’s invented,<br />
+dressing up a statistical guess until it looks like a data point worth acting on.  </p>
+<p>The weakest link is <strong>identity mismatch</strong>, the attempt to map that anonymous web traffic to<br />
+a specific company. Audits put accuracy near 40–50%, far below the 80–90% vendors claim.<br />
+Remote work, shared offices, and cloud infrastructure all blur IP identity. Two providers may<br />
+disagree on which company an IP belongs to, so the same browsing activity can register as<br />
+intent from entirely different firms. And even when they’re right, the match only narrows the<br />
+activity to a company, never to a person.  </p>
+<p>The next distortion is <strong>manufactured statistical certainty</strong>. Composite scoring blends different data types — hiring surges, funding rounds, new software installs — to make a weak signal look stronger. But these signals are rarely independent. A company that has just raised funding is also likely to be hiring and buying software. Since the clues point to the same underlying event, they don’t triangulate a target, they simply reinforce one assumption. The model grows more confident without becoming more accurate, mistaking correlation for certainty.</p>
+<p>Another flaw is <strong>semantic drift in topic detection</strong>. Every “surge” depends on vendor-specific<br />
+taxonomies — “HR software,” “contract management,” “cloud migration” — derived from<br />
+automated classifiers that interpret page text and metadata. Vendors revise these opaque<br />
+taxonomies without notice, so changes in classification often reflect model drift, not market<br />
+behaviour. A single page can be labeled differently across providers or model versions,<br />
+creating semantic drift that mirrors shifts in the classifier, not in buyer intent.  </p>
+<p>The final limitation is <strong>latency</strong>. The auction that produces the bidstream happens in<br />
+milliseconds; the enrichment and reporting cycle takes days or weeks. By the time a score<br />
+appears in a dashboard, the behaviour it describes is often already stale.  </p>
+<p><span style="font-size: smaller; color: #777; display: block; margin-top: 2rem;">
+¹ A curated alternative to the raw bidstream is the data cooperative model, often associated with vendors like Bombora. In this model, a network of B2B publishers agrees to share anonymized visitor data, yielding a higher-quality signal about the topic being researched (the what). Crucially, however, it still depends on the same probabilistic IP-to-company mapping to determine where that research originates (the who), and therefore does not solve the fundamental identity and context challenges outlined here.
+</span></p>
+<p><strong>The industrial logic</strong></p>
+<p>Yet the system endures, and for rational reasons. Weak signals are not worthless. In a<br />
+high-volume outbound model, even a tiny probabilistic edge compounds at scale. A one- or<br />
+two-point lift in response rate, spread across thousands of prospects, pays for itself many<br />
+times over.  </p>
+<p>That’s why intent data fits so neatly into the industrial go-to-market philosophy: it offers<br />
+direction: just enough to keep the outbound factory running, turning a small statistical edge<br />
+into a licence for volume.  </p>
+<p><strong>The vanishing raw material</strong></p>
+<p>The industry has long weathered scrutiny over the unreliability of its manufactured signals.<br />
+But it now faces a truly existential threat, one that targets not the quality of the signal, but<br />
+its very existence. The entire market was built on a single, fragile assumption: that the<br />
+torrent of human curiosity, expressed as page views, would flow forever.  </p>
+<p>That assumption is now breaking.  </p>
+<p>As AI assistants handle more of the early research process, users get answers without<br />
+opening a page. In 2024, SparkToro and SimilarWeb found that more than 65% of Google<br />
+searches ended without a click — a record high — and early evidence suggests AI answer<br />
+boxes will push that number higher still. Publishers see the same trend: Semrush and<br />
+Parse.ly report year-on-year declines in organic traffic across B2B and informational sites.  </p>
+<p>For business buyers, the shift is sharper. A procurement manager who once searched “best<br />
+contract-management software” now asks ChatGPT or Claude and receives a synthesised<br />
+answer instantly. No page view means no auction, no bidstream, and nothing to map.  </p>
+<p>This shift to conversational AI presents a fundamental challenge. Unlike the open web,<br />
+where actions are public by default, these new interfaces are private. As research activity<br />
+moves from public web pages to private AI chats, the visibility required for bidstream<br />
+auctions disappears.  </p>
+<p>The raw material of this market is human curiosity expressed as a page view, and the<br />
+industry is running out of curiosity to sell.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.expand"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+      
+    
+  </body>
+</html>

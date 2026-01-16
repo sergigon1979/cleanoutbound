@@ -26,3 +26,8 @@
   margin: 0 auto 1rem auto;
   line-height: 1.6;
 }
+
+:root {
+  --md-primary-fg-color: #f1f1f1;   /* light grey bar */
+  --md-primary-bg-color: #1f2937;   /* dark text/icons */
+}
