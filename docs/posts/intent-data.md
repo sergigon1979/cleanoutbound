@@ -7,7 +7,7 @@ tags: [intent, data, sales, analytics, ethics]
 
 # Explainer: Intent Data
 
-**What is "Intent Data", how is it manufactured, and why is it (probably) wrong most of the time.**
+**What is "Intent Data", how is it manufactured, and why is it (probably) wrong most of the time**
 
 <!--
 <span style="font-size: 0.65rem; color: #888;">Published: October 23, 2025</span>
