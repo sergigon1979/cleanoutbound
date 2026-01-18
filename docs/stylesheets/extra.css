@@ -31,3 +31,10 @@
   --md-primary-fg-color: #f1f1f1;   /* light grey bar */
   --md-primary-bg-color: #1f2937;   /* dark text/icons */
 }
+
+/* Active item in left navigation */
+.md-nav__item--active > .md-nav__link {
+  color: #4f948eff;
+  font-weight: 500;
+}
+
