@@ -13,7 +13,7 @@ extra_css:
   
 nav:
   - "": index.md
-  - Posts:
+  - Drafts:
       - "Clean Outbound?": posts/clean-outbound.md 
       # - "Outbound is Dirty": posts/outbound-is-dirty.md
       # - "Parasitic Sales": posts/parasitic-sales.md
