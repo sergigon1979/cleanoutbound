@@ -64,7 +64,7 @@ two-way conversations and generate the positive engagement metrics algorithms lo
 
 <!--
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="../../assets/emails-warming-up.png" alt="Emails warming up on a running track" style="max-width: 100%; height: auto;">
+  <img src="../../assets/king.png" alt="Emails warming up on a running track" style="max-width: 100%; height: auto;">
 </div>
 -->
 
