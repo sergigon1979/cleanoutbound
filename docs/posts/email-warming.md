@@ -63,7 +63,7 @@ name just a few — automate this process, creating “reply loops” that simul
 two-way conversations and generate the positive engagement metrics algorithms look for.  
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="../../assets/king.png" alt="Emails warming up on a running track" style="max-width: 100%; height: auto;">
+  <img src="../../assets/king.png" alt="Emails warming up on a running track" style="max-width: 70%; height: auto;">
 </div>
 
 **Why new domains are required**
