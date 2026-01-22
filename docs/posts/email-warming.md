@@ -62,11 +62,9 @@ Many modern sales tools — including Warmup Inbox, Lemwarm, Instantly, and Smar
 name just a few — automate this process, creating “reply loops” that simulate natural, 
 two-way conversations and generate the positive engagement metrics algorithms look for.  
 
-<!--
 <div style="text-align: center; margin: 2rem 0;">
   <img src="../../assets/king.png" alt="Emails warming up on a running track" style="max-width: 100%; height: auto;">
 </div>
--->
 
 **Why new domains are required**
 
