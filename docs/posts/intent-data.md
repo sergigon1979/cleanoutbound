@@ -63,12 +63,6 @@ By now, the data has already passed through several hands. The ad exchange sells
 
 And finally, platform integrators like ZoomInfo and 6sense package this manufactured signal for go-to-market teams. Marketing uses it for account-based targeting; sales uses it to prioritise outreach. The dashboard turns those probabilities into something that looks decisive: *“Acme Manufacturing - HR system migration interest up 28% week over week”*.
 
-<!--
-<div style="text-align: center; margin: 2rem 0;">
-  <img src="../../assets/five_candidates.png" alt="Five candidates representing probabilistic identity mapping" style="max-width: 100%; height: auto;">
-</div>
--->
-
 **Acme Manufacturing**
 
 Lean back and watch the full motion unfold.  
@@ -91,6 +85,10 @@ The phone rings in the office of Acme’s Head of People Ops, the very manager w
 interviewed the candidate. She picks up, still drafting a polite rejection note, and hears:  
 
 > “I noticed you’re exploring new HR systems.”  
+
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="../../assets/five_candidates.png" alt="Five candidates representing probabilistic identity mapping" style="max-width: 70%; height: auto;">
+</div>
 
 **Where the guesswork breaks**
 
@@ -122,10 +120,6 @@ creating semantic drift that mirrors shifts in the classifier, not in buyer inte
 The final limitation is **latency**. The auction that produces the bidstream happens in  
 milliseconds; the enrichment and reporting cycle takes days or weeks. By the time a score  
 appears in a dashboard, the behaviour it describes is often already stale.  
-
-<span style="font-size: smaller; color: #777; display: block; margin-top: 2rem;">
-¹ A curated alternative to the raw bidstream is the data cooperative model, often associated with vendors like Bombora. In this model, a network of B2B publishers agrees to share anonymized visitor data, yielding a higher-quality signal about the topic being researched (the what). Crucially, however, it still depends on the same probabilistic IP-to-company mapping to determine where that research originates (the who), and therefore does not solve the fundamental identity and context challenges outlined here.
-</span>
 
 **The industrial logic**
 
@@ -164,3 +158,7 @@ auctions disappears.
 
 The raw material of this market is human curiosity expressed as a page view, and the  
 industry is running out of curiosity to sell.
+
+<span style="font-size: smaller; color: #777; display: block; margin-top: 2rem;">
+¹ A curated alternative to the raw bidstream is the data cooperative model, often associated with vendors like Bombora. In this model, a network of B2B publishers agrees to share anonymized visitor data, yielding a higher-quality signal about the topic being researched (the what). Crucially, however, it still depends on the same probabilistic IP-to-company mapping to determine where that research originates (the who), and therefore does not solve the fundamental identity and context challenges outlined here.
+</span>
