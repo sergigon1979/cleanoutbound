@@ -19,7 +19,7 @@ In 2002, a Lisp programmer wrote an essay about spam. It triggered the first AI 
 
 <p style="margin-top: 1.5rem;"><strong>Viagra, Mortgages, Webcams and Generals</strong></p>
 
-The spam economy of the early 2000s ran on four products: pills, loans, pornography, and the promise that a deceased Nigerian general had named you in his will. Reaching out to potential buyers cost almost nothing. 
+The spam economy of the early 2000s ran on four products: pills, loans, pornography, and the promise that a deceased Nigerian general had named you in his will. The merchants were a relatively small number of technically competent opportunists who had discovered the same infrastructure vulnerability at roughly the same time.
 
 An open relay was a mail server that would forward any message from anyone to anyone else, no questions asked, no authentication required. The dominant mail transfer agent of the 1990s, Sendmail, shipped with relaying enabled by default — a design inherited from ARPANET, where every node was a trusted colleague. On the open internet, which had inherited ARPANET's architecture but not its manners, this was an unlocked door with a sign reading "please come in."¹ A single operator with a list and a script could push millions of messages through other people's servers without owning a single machine.
 
