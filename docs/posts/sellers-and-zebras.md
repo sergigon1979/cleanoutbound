@@ -270,7 +270,7 @@ Most dirty workers can maintain distance from the people who stigmatize them. Th
 
 Pain is information.
 
-In a functioning system, the signal would reach the controls. An operator who sees damaging output would adjust the input — lower the volume, change the targeting, pull back. That is what feedback loops do. But the system has been architected so that the signal cannot reach the controls. The volume is mandated. The copy is AI-generated. The list is bought. The sequences fire on schedule. She detects the problem but is disconnected from the mechanism that could correct it. This is signal-action decoupling: full awareness, zero agency.
+In a functioning system, the signal would reach the controls. An operator who sees damaging output would adjust the input — lower the volume, change the targeting, pull back. That is what feedback loops do. But the system has been architected so that the signal cannot reach the controls. The volume is mandated. The list is bought. The sequences fire on schedule. She detects the problem but is disconnected from the mechanism that could correct it. This is signal-action decoupling: full awareness, zero agency.
 
 Sara Archer, CRO of ChartMogul, detected the damage and shut down her outbound program, publicly, out of performance concerns.¹⁷ Privately, she admitted "We just don't enjoy this. And we don't feel that our buyers enjoy being on the receiving end." Archer could act because she had admin access. The SDR does not. She is a sensor wired to nothing.
 
