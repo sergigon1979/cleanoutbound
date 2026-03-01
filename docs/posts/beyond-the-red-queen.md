@@ -1,0 +1,683 @@
+---
+title: "Beyond the Red Queen"
+description: ""
+date: 2026-XX-XX
+tags: [spam, filtering, arms-race, evolution, game-theory, Red-Queen, Von-Neumann]
+---
+
+# Beyond the Red Queen
+
+<!-- TODO: subtitle -->
+
+<!--
+<span style="font-size: 0.65rem; color: #888;">Published: XXXX XX, 2026</span>
+-->
+<p style="margin-top: 1.5rem;"><strong>Why crabs and clams reached a stalemate but spam and filters never did</strong></p>
+
+<span style="color: #777;">
+Spam vs. filters is routinely compared to biological arms races. The comparison is flattering to the defender. It is also wrong.
+</span>
+
+<p style="margin-top: 1.5rem;"><strong>The Oldest Arms Race</strong></p>
+
+Five hundred and seventeen million years ago, a small creature crawled along the floor of a shallow sea in what is now South Australia. Nobody knows exactly what it looked like. The best guess is a worm, a few millimeters long, soft-bodied, wearing a coat of tiny mineralized plates. Each plate was a ridged, hollow cone no bigger than a grain of sand.¹
+
+The animal is called Lapworthella fasciculata. It was one of millions of species trying out armor during the Cambrian explosion. We will never see one alive. What we have are the plates, dissolved out of ancient limestone with weak acid, sorted by rock layer. Thousands of them.
+
+Many have holes. Neat, circular perforations, the work of something, probably a soft-bodied worm or primitive mollusk, that could drill through a phosphatic shell and consume the animal inside.
+
+A recent study measured shell thickness and drilling frequency across fourteen meters of layers of rock, each meter a later moment in time.² The shells got thicker. The percentage with holes went up, from one percent at the bottom to nearly four at the top. The prey was reinforcing its armor and the predator was keeping pace.
+
+In 1973, Leigh Van Valen named this dynamic the Red Queen effect, after a line in Lewis Carroll's *Through the Looking-Glass*: "It takes all the running you can do, to keep in the same place." The drilled shells of Lapworthella appear to be the oldest evidence of this dynamic caught in the act. A microevolutionary arms race, frozen in rock.³
+
+The wars between spam and spam filters are routinely described as a Red Queen dynamic. Attackers evolve; defenders adapt; attackers shift. Both sides run. Neither wins. But the biological and spam arms races are different in ways that have profound implications.
+
+<!-- IMAGE: SEM micrographs of Lapworthella fasciculata -->
+<div style="text-align: center; margin: 2rem 0 0.5rem 0;">
+  <img src="../../assets/lapworthella.png" alt="SEM micrographs of Lapworthella fasciculata plates showing drill holes — Bicknell et al., 2025" style="max-width: 80%; height: auto; border-radius: 6px;">
+  <div style="font-size: 0.7rem; color: #666;">"Circular perforations consistent with forced entry. Suspect described as soft-bodied. Still at large."⁴</div>
+</div>
+
+<p style="margin-top: 1.5rem;"><strong>Damping Conditions</strong></p>
+
+Across every well-documented biological arms race, escalation happens, then plateaus. Crabs evolved stronger claws; mollusks evolved thicker shells. T. rex grew larger and more powerful; ceratopsians evolved heavier armor. But T. rex did not become Godzilla. Clams did not become tanks. The arms race continued within an envelope. Traits fluctuated, fine-tuned, occasionally shifted, never exploded.
+
+The reason is physics. Every improvement in attack or defense costs calories. A crab with a stronger claw needs more muscle, which requires more food. A clam with a thicker shell expends more calcium carbonate and more energy carrying the weight. Because energy is finite, escalation competes directly with reproduction, mobility, and survival. When the marginal cost of a stronger weapon exceeds the marginal benefit of wielding it, further escalation stops being selected for.
+
+Second, evolution does not design from scratch. It modifies what already exists, one generation at a time. A crab's claw can get stronger, but it cannot become a drill. This is path dependence: the space of possible adaptations is constrained by history, and explored slowly. Each improvement forecloses certain futures and opens others. Defenders are never confronted with infinite novelty, because attackers are prisoners of their own anatomy.
+
+Finally, failure is expensive on both sides. The prey that loses dies. But predators that miss repeatedly also die. They starve. (Prey-predator pressure is not perfectly symmetric⁵, but over enough encounters the difference shrinks.) Evolution punishes gamblers on both sides. A predator cannot afford to try a hundred speculative attacks in the hope that one works, because the ninety-nine failures cost energy it cannot recover.
+
+When these constraints operate together, escalation damps itself. The arms race does not disappear. Both sides keep adapting, but neither can break away.
+
+The contest in your inbox lacks all three.
+
+<p style="margin-top: 1.5rem;"><strong>No Cost for Failure</strong></p>
+
+In the early 1990s, spammers discovered the open relay.⁶ Misconfigured mail servers would forward anything for anyone, no questions asked, no authentication required. It was as if every post office in the world agreed to deliver any sack of letters, free of charge. A single operator with a list and a script could reach millions of inboxes without owning a single server.
+
+The relays were eventually closed. It made no difference. Spammers built their own infrastructure, or rather, stole it. By the mid-2000s, botnets had conscripted millions of ordinary home computers into zombie armies. The Storm botnet alone may have controlled fifty million machines.⁷ Because the compute was stolen rather than purchased, the marginal cost of each additional message was not just low. It was zero.
+
+In November 2008, researchers convinced two upstream providers to disconnect McColo, a hosting company in San Jose that served as the backbone for several major botnets. Global spam dropped 70% overnight.⁸ Within weeks, it was back. The botnets decentralized and rebuilt.
+
+Each of these steps did the same thing. It pushed the cost of a failed attempt closer to nothing. This is the first place where the biological analogy breaks. In evolution, every escalation costs the organism; escalation that doesn't pay for itself gets selected out. A spammer can send a hundred emails or ten thousand and it will cost him the same.¹²
+
+<p style="margin-top: 1.5rem;"><strong>Dimension Shifts</strong></p>
+
+A crab's claw can get stronger, but it cannot become a drill.
+
+Before 2002, spam filters were static: keyword blacklists, header checks, rule sets. Attackers changed the words; defenders updated the lists. Both sides iterated within the same dimension. Then Paul Graham published "A Plan for Spam."⁹ His Bayesian filter learned the statistical signature of junk instead of matching keywords. It worked. The attackers stopped trying to beat it and left for a dimension it couldn't see.
+
+Spammers responded by rendering their payload as a JPEG. Graham's filter, which read words, saw nothing. When filters learned to read images, attackers moved to botnets. When botnets were shut down, they moved to disposable accounts and snowshoe distribution.¹¹ Each time, the abandoned tactic stayed defeated. The attacker simply left for a dimension the defense had never considered.
+
+In biology, the space of possible adaptations is constrained by history and explored slowly. In email, the attacker can jump to any dimension at any time. Blocking one tactic does not narrow the attacker's future options. The space is open-ended and recombinable. In evolution, closing one path constrains the organism. Here, it merely redirects. Defensive success in one dimension buys nothing in the next.¹³
+
+<!-- IMAGE: Viking blowing shell horn -->
+<div style="text-align: center; margin: 2rem 0 0.5rem 0;">
+  <img src="../../assets/viking.png" alt="Viking blowing shell horn on cliff of shells — Oksana Drachkovska" style="max-width: 70%; height: auto; border-radius: 6px;">
+</div>
+
+<p style="margin-top: 1.5rem;"><strong>The Gambler's Advantage</strong></p>
+
+Finally, there is the question of risk.
+
+Biology punishes gambling on both sides. In spam filtering, the risk is radically lopsided. A spammer who sends ten thousand messages and reaches one inbox has succeeded. The other 9,999 failures cost nothing. But a filter that blocks one legitimate email has created a visible, personal problem. A missed invoice, or a job offer that never arrived. A password reset that vanished. The user does not blame the spammer, but the filter.
+
+Email providers know this. In 2013, Gmail introduced tabbed inboxes: Primary, Promotions, Social, Updates. Google had the machine learning capability to filter far more aggressively. They chose to sort instead. The decision revealed the asymmetry in pure form: it was safer to let a questionable message land in Promotions than to risk blocking a real one from Primary. Sorting is what you do when the cost of a false positive is worse than the cost of noise.
+
+This gives the attacker a structural advantage that no biological predator has ever enjoyed. A spammer can try any strategy, no matter how unlikely to succeed, because failure is invisible and free. A filter cannot respond aggressively, because its mistakes are visible and expensive. The attacker can gamble without limit. The defender must play it safe.
+
+<p style="margin-top: 1.5rem;"><strong>The Sawtooth</strong></p>
+
+<!-- [EXHIBIT: Sawtooth chart] -->
+<div class="co-exhibit co-exhibit--sawtooth">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    .co-exhibit--sawtooth * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .co-exhibit--sawtooth {
+      margin: 2.5rem 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .co-exhibit--sawtooth .chart-container {
+      background: #f6f6f6;
+      max-width: 720px;
+      width: 100%;
+      padding: 28px 32px;
+      overflow-x: auto;
+    }
+
+    .co-exhibit--sawtooth .chart-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+
+    .co-exhibit--sawtooth .chart-title {
+      font-family: 'Source Serif 4', serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: #1a1a1a;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .co-exhibit--sawtooth .chart-label {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 10px;
+      font-style: italic;
+      color: #bbb;
+    }
+
+    .co-exhibit--sawtooth .charts-row {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    @media (max-width: 600px) {
+      .co-exhibit--sawtooth .charts-row {
+        flex-direction: column;
+        gap: 24px;
+      }
+    }
+
+    .co-exhibit--sawtooth .chart-cell {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .co-exhibit--sawtooth .chart-svg {
+      width: 100%;
+      height: auto;
+    }
+
+    .co-exhibit--sawtooth .axis-line {
+      stroke: #e5e5e5;
+      stroke-width: 1;
+    }
+
+    .co-exhibit--sawtooth .axis-label {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 7px;
+      fill: #888;
+    }
+
+    .co-exhibit--sawtooth .chart-cell-label {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 7px;
+      font-weight: 500;
+      fill: #1a1a1a;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+
+    .co-exhibit--sawtooth .line-thickness {
+      stroke: #6b9edd;
+      stroke-width: 1.5;
+      fill: none;
+    }
+
+    .co-exhibit--sawtooth .line-drilling {
+      stroke: #b39ddb;
+      stroke-width: 1.5;
+      fill: none;
+    }
+
+    .co-exhibit--sawtooth .line-digital {
+      stroke: #6b9edd;
+      stroke-width: 1.5;
+      fill: none;
+    }
+
+    .co-exhibit--sawtooth .chart-divider {
+      border: none;
+      border-top: 1px solid #e5e5e5;
+      margin: 0;
+    }
+
+    .co-exhibit--sawtooth .chart-footer {
+      margin-top: 12px;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 13px;
+      color: #666;
+      line-height: 1.6;
+    }
+  </style>
+  <div class="chart-container">
+    <div class="chart-header">
+      <div class="chart-title">Like crabs in a bucket</div>
+      <div class="chart-label">Conceptual</div>
+    </div>
+    <div class="charts-row">
+      <div class="chart-cell">
+        <svg class="chart-svg" viewBox="0 0 200 185" preserveAspectRatio="xMidYMid meet">
+          <text class="chart-cell-label" x="110" y="7" text-anchor="middle">Shell Thickness VS.</text>
+          <text class="chart-cell-label" x="110" y="15" text-anchor="middle">Drilling Force</text>
+          <line class="axis-line" x1="28" y1="160" x2="28" y2="28"/><line class="axis-line" x1="192" y1="160" x2="192" y2="28"/><line class="axis-line" x1="28" y1="160" x2="192" y2="160"/>
+          <text class="axis-label" x="26" y="26" text-anchor="end">mm</text><text class="axis-label" x="194" y="26">N</text><text class="axis-label" x="110" y="174" text-anchor="middle">Geological time</text>
+          <path class="line-thickness" d="M 34,152 C 50,150 60,146 72,134 C 84,122 96,98 110,76 C 124,58 138,48 155,46 C 168,45 180,45 190,45"/>
+          <path class="line-drilling" d="M 34,154 C 50,153 62,150 76,140 C 90,130 104,108 118,86 C 132,68 146,58 160,55 C 172,53 182,53 190,53"/>
+          <!-- Shell icon (blue, above thickness line) -->
+          <g transform="translate(162, 30) scale(0.55)" opacity="1">
+            <path d="M18,18 C18,18 20,14 20,10 C20,5 16,2 12,2 C8,2 4,5 4,10 C4,14 7,17 10,17 C13,17 15,15 15,12 C15,10 13.5,8.5 12,8.5 C10.5,8.5 9.5,9.5 9.5,11" fill="none" stroke="#6b9edd" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M18,18 C16,20 12,22 8,21" fill="none" stroke="#6b9edd" stroke-width="1.3" stroke-linecap="round"/>
+          </g>
+          <!-- Crab icon (purple, below drilling line) -->
+          <g transform="translate(162, 56) scale(0.5)" opacity="1">
+            <ellipse cx="12" cy="12" rx="7" ry="5.5" fill="none" stroke="#b39ddb" stroke-width="1.5"/>
+            <path d="M5,10 C2,7 0,5 1,3" fill="none" stroke="#b39ddb" stroke-width="1.2" stroke-linecap="round"/>
+            <path d="M0.5,3.5 L1,3 L2,4" fill="none" stroke="#b39ddb" stroke-width="0.8" stroke-linecap="round"/>
+            <path d="M19,10 C22,7 24,5 23,3" fill="none" stroke="#b39ddb" stroke-width="1.2" stroke-linecap="round"/>
+            <path d="M23.5,3.5 L23,3 L22,4" fill="none" stroke="#b39ddb" stroke-width="0.8" stroke-linecap="round"/>
+            <circle cx="9.5" cy="10.5" r="0.8" fill="#b39ddb"/>
+            <circle cx="14.5" cy="10.5" r="0.8" fill="#b39ddb"/>
+            <line x1="6" y1="16" x2="4" y2="20" stroke="#b39ddb" stroke-width="0.7"/>
+            <line x1="9" y1="17" x2="8" y2="21" stroke="#b39ddb" stroke-width="0.7"/>
+            <line x1="15" y1="17" x2="16" y2="21" stroke="#b39ddb" stroke-width="0.7"/>
+            <line x1="18" y1="16" x2="20" y2="20" stroke="#b39ddb" stroke-width="0.7"/>
+          </g>
+        </svg>
+      </div>
+      <div class="chart-cell">
+        <svg class="chart-svg" viewBox="0 0 200 185" preserveAspectRatio="xMidYMid meet">
+          <text class="chart-cell-label" x="110" y="7" text-anchor="middle">% Unfiltered spam</text>
+          <line class="axis-line" x1="28" y1="160" x2="192" y2="160"/><line class="axis-line" x1="28" y1="28" x2="28" y2="160"/>
+          <text class="axis-label" x="110" y="174" text-anchor="middle">Years</text>
+          <path class="line-digital" d="M 34,132 L 42,122 L 50,102 L 56,74 L 58,132 L 64,130 L 70,128 L 78,114 L 86,86 L 92,54 L 94,129 L 100,127 L 108,126 L 116,124 L 122,112 L 126,96 L 128,130 L 136,119 L 144,94 L 150,68 L 156,58 L 158,124 L 164,122 L 172,120 L 178,106 L 184,86 L 188,72"/>
+          <!-- Labels -->
+          <rect x="28" y="89" width="36" height="9" rx="1" fill="rgba(246,246,246,0.8)"/>
+          <line x1="46" y1="108" x2="46" y2="98" stroke="#999" stroke-width="0.5"/>
+          <text x="46" y="95" text-anchor="middle" style="font-family: 'IBM Plex Sans', sans-serif; font-size: 6px; fill: #999;">Word salad</text>
+          <rect x="68" y="113" width="40" height="9" rx="1" fill="rgba(246,246,246,0.8)"/>
+          <line x1="58" y1="118" x2="68" y2="118" stroke="#999" stroke-width="0.5"/>
+          <text x="70" y="119" text-anchor="start" style="font-family: 'IBM Plex Sans', sans-serif; font-size: 6px; fill: #999;">Bayesian filter</text>
+          <rect x="60" y="79" width="38" height="9" rx="1" fill="rgba(246,246,246,0.8)"/>
+          <line x1="82" y1="96" x2="82" y2="88" stroke="#999" stroke-width="0.5"/>
+          <text x="82" y="85" text-anchor="middle" style="font-family: 'IBM Plex Sans', sans-serif; font-size: 6px; fill: #999;">Image spam</text>
+        </svg>
+      </div>
+    </div>
+    <hr class="chart-divider">
+    <div class="chart-footer">The biological arms race escalates and stabilizes. The digital one oscillates without accumulating defensive progress. Each spike is a new tactic; each dip is a filter catching up. Neither side builds on what came before.</div>
+  </div>
+</div>
+
+Biological arms races with damping conditions produce something like the chart on the left. Shell thickness against drilling force. Speed against speed. Camouflage against visual acuity. The specifics vary across species and time scales, but the shape is always roughly the same: gradual, bounded escalation. Neither side breaks away.
+
+The contest between spam and filters has produced something like the chart on the right. Bayesian filters mastered text; spammers jumped to images. Filters learned to read images; spammers abandoned the tactic entirely and moved to botnets. Each defensive victory worked. None of them accumulated. The attacker never tried to beat a defeated strategy. They searched for the next undefended dimension and moved there. This is what an adversarial search contest looks like.
+
+<p style="margin-top: 1.5rem;"><strong>The Von Neumann Shift</strong></p>
+
+A lioness on the Serengeti succeeds in roughly one chase out of ten. That number is not the result of a special attack or a targeted strategy, but a statistical outcome. She does roughly the same thing every time, and the variables that determine success or failure are essentially random: wind direction, terrain, the gazelle's fatigue. She runs the same play against a stochastic environment.
+
+A spammer who gets through 1% of filters is doing something fundamentally different. The 1% is not where the spammer gets lucky but where she found the crack. The attacker who pays no cost for failure will send enough volume to find it every time. The attacker who can shift across dimensions will probe it from angles the filter was never trained on. And the defender who cannot afford false positives cannot close it aggressively.
+
+These are not two versions of the same contest. The lioness can be described by probability. The spammer requires something different.
+
+Zero-sum adversarial contests are well studied in game theory. In a zero-sum game, exploiting your weakness is always the opponent's best move. The minimax theorem formalizes this: the rational strategy is to minimize your maximum possible loss.¹⁴ Assume your opponent will find the move that hurts you most, and plan for that.
+
+The minimax theorem was formulated for games of deception and hidden information. It fits the inbox with uncomfortable precision. In a zero-sum adversarial contest, your opponent will find the worst case of any strategy you deploy, because finding it is always their best move. Each defense has a worst case. The attacker finds it. The defender patches and rebuilds. The attacker finds the next one.
+
+Unless the underlying conditions change, or the game is abandoned entirely, we have every reason to expect history continuously repeating itself.
+
+<!-- IMAGE: Adversarial case doors -->
+<div style="text-align: center; margin: 2rem 0 0.5rem 0;">
+  <img src="../../assets/adversarial-case.png" alt="Man walking past doors labeled Average Case, Expected Value, Typical Scenario toward dark door labeled Adversarial Case — Oksana Drachkovska" style="max-width: 70%; height: auto; border-radius: 6px;">
+</div>
+
+<p style="margin-top: 1.5rem;"><strong>A New Creature Prowls the Serengeti</strong></p>
+
+She never tires. She does not cross the grass; she materializes behind the herd. When she misses, she does not retreat in fatigue; she rewinds and launches again from a different angle. She runs a hundred hunts simultaneously. The gazelle that escapes one is already inside another.
+
+And she does not look like a lioness. She is indistinguishable from the gazelle.
+
+It is approaching fast.
+
+<!-- [EXHIBIT: Takeaways box] -->
+<div class="co-exhibit co-exhibit--takeaways">
+  <style>
+    .co-exhibit--takeaways {
+      margin: 2.5rem 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .co-exhibit--takeaways * {
+      box-sizing: border-box;
+    }
+
+    .co-exhibit--takeaways .box {
+      max-width: 720px;
+      width: 100%;
+      background: #f5f5f5;
+      padding: 28px 32px;
+    }
+
+    .co-exhibit--takeaways .title {
+      font-family: 'IBM Plex Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.4px;
+      text-transform: uppercase;
+      color: #222;
+      margin: 0 0 18px 0;
+    }
+
+    .co-exhibit--takeaways ul {
+      margin: 0;
+      padding: 0 0 0 18px;
+      list-style: disc;
+    }
+
+    .co-exhibit--takeaways li {
+      font-family: 'IBM Plex Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 14px;
+      line-height: 1.7;
+      color: #222;
+      margin: 0 0 12px 0;
+      padding-left: 4px;
+    }
+
+    .co-exhibit--takeaways li:last-child {
+      margin-bottom: 0;
+    }
+
+    .co-exhibit--takeaways strong {
+      font-weight: 600;
+    }
+
+    @media (max-width: 600px) {
+      .co-exhibit--takeaways .box {
+        padding: 22px 20px;
+      }
+      .co-exhibit--takeaways li {
+        font-size: 13px;
+      }
+    }
+  </style>
+
+  <div class="box">
+    <div class="title">Takeaways</div>
+
+    <ul>
+      <li><strong>Biology has brakes that spam lacks.</strong> Every biological arms race plateaus because escalation costs calories, anatomy constrains innovation, and failure kills. Spam escalates for free, shifts dimensions at will, and pays nothing for failure.</li>
+      <li><strong>Defensive wins don't accumulate.</strong> Bayesian filters mastered text, so spammers jumped to images. Filters learned images, so spammers moved to botnets. Each victory held its ground and bought nothing for the next front.</li>
+      <li><strong>This is not a Red Queen race. It's an adversarial game.</strong> The lioness succeeds by probability. The spammer succeeds by finding the crack. The right framework is not Van Valen, but Von Neumann.</li>
+      <li><strong>History will repeat until conditions change.</strong> Or until the game is abandoned entirely.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- [EXHIBIT: Thirty years of oscillation table] -->
+<p style="margin-top: 2.5rem;"><strong>APPENDIX</strong></p>
+
+<div class="co-exhibit co-exhibit--oscillation">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    .co-exhibit--oscillation * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .co-exhibit--oscillation {
+      margin: 2.5rem 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .co-exhibit--oscillation .table-container {
+      background: #f6f6f6;
+      width: 100%;
+      max-width: 720px;
+      padding: 28px 32px;
+      overflow-x: auto;
+    }
+
+    .co-exhibit--oscillation .table-title {
+      font-family: 'Source Serif 4', serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: #1a1a1a;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+    }
+
+    .co-exhibit--oscillation .table-subtitle {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 11px;
+      color: #999;
+      margin-bottom: 24px;
+    }
+
+    .co-exhibit--oscillation .legend {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .co-exhibit--oscillation .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 11px;
+      color: #888;
+    }
+
+    .co-exhibit--oscillation table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 560px;
+    }
+
+    .co-exhibit--oscillation thead th {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 11px;
+      font-weight: 500;
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      text-align: left;
+      padding: 0 12px 12px 0;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    .co-exhibit--oscillation thead th:first-child { width: 10%; }
+    .co-exhibit--oscillation thead th:nth-child(2) { width: 26%; }
+    .co-exhibit--oscillation thead th:nth-child(3) { width: 30%; }
+    .co-exhibit--oscillation thead th:last-child { width: 34%; }
+
+    .co-exhibit--oscillation tbody td {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 13px;
+      color: #666;
+      line-height: 1.5;
+      padding: 14px 12px 14px 0;
+      border-bottom: 1px solid #e5e5e5;
+      vertical-align: top;
+    }
+
+    .co-exhibit--oscillation tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    .co-exhibit--oscillation .tactic-name {
+      font-weight: 600;
+      color: #1a1a1a;
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .co-exhibit--oscillation .tactic-name.open { color: #4a7fb5; }
+    .co-exhibit--oscillation .tactic-name.closed { color: #b94a4a; }
+    .co-exhibit--oscillation .tactic-name.other { color: #508a5e; }
+    .co-exhibit--oscillation .tactic-name.none { color: #aaa; }
+
+    .co-exhibit--oscillation .tactic-detail {
+      font-size: 11px;
+      color: #888;
+    }
+
+    .co-exhibit--oscillation .era-label {
+      font-weight: 500;
+      color: #1a1a1a;
+      white-space: nowrap;
+    }
+
+    .co-exhibit--oscillation .patterns-title {
+      font-family: 'Source Serif 4', serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: #1a1a1a;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+    }
+
+    .co-exhibit--oscillation .patterns-text {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 13px;
+      color: #666;
+      line-height: 1.7;
+    }
+
+    .co-exhibit--oscillation .patterns-text p {
+      margin-bottom: 14px;
+    }
+
+    .co-exhibit--oscillation .patterns-text p:last-child {
+      margin-bottom: 0;
+    }
+  </style>
+  <div class="table-container">
+    <div class="table-title">Thirty years of oscillation</div>
+    <div class="table-subtitle">Color indicates defense type</div>
+    <div class="legend">
+      <div class="legend-item"><span style="font-weight: 600; color: #4a7fb5;">■</span> Open graph (content / behavioral filtering)</div>
+      <div class="legend-item"><span style="font-weight: 600; color: #b94a4a;">■</span> Closed graph (identity / reputation)</div>
+      <div class="legend-item"><span style="font-weight: 600; color: #508a5e;">■</span> Infrastructure enforcement</div>
+    </div>
+    <table>
+      <thead>
+        <tr><th>Era</th><th>Attack</th><th>Defense</th><th>Result</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="era-label">Early 1990s</span></td>
+          <td><span class="tactic-name">Open relay exploitation</span><span class="tactic-detail">Misconfigured servers forward anything for anyone, free of charge.</span></td>
+          <td><span class="tactic-name open">Keyword filters</span><span class="tactic-detail">Filters scan for banned words and phrases (e.g. SpamAssassin).</span></td>
+          <td>First content-based defense. Easily circumvented by rewording.</td>
+        </tr>
+        <tr>
+          <td><span class="era-label">Late 1990s</span></td>
+          <td><span class="tactic-name none">Open relay exploitation (cont.)</span></td>
+          <td><span class="tactic-name other">Relay closure</span><span class="tactic-detail">Servers close open relays. Sendmail 8.9 reconfigured (1998).</span></td>
+          <td>Permanent infrastructure fix. Relays shut for good. Attackers build their own infrastructure.</td>
+        </tr>
+        <tr>
+          <td><span class="era-label">~2002</span></td>
+          <td><span class="tactic-name">Keyword-evading spam</span><span class="tactic-detail">Misspellings, character substitution ("V1agra"), formatting tricks.</span></td>
+          <td><span class="tactic-name open">Bayesian filter</span><span class="tactic-detail">Paul Graham's probabilistic classification learns statistical patterns, not specific words.</span></td>
+          <td>Genuine leap. First adaptive defense. Keyword evasion rendered obsolete.</td>
+        </tr>
+        <tr>
+          <td><span class="era-label">~2003</span></td>
+          <td><span class="tactic-name">Word salad</span><span class="tactic-detail">Stolen text from novels and news padded into messages to poison statistical models.</span></td>
+          <td><span class="tactic-name open">Improved statistical models</span><span class="tactic-detail">Better tokenization and n-gram analysis defeat text padding.</span></td>
+          <td>Attackers can no longer win inside text. They abandon the dimension entirely.</td>
+        </tr>
+        <tr>
+          <td><span class="era-label">~2004</span></td>
+          <td><span class="tactic-name">Image-only spam</span><span class="tactic-detail">Ad rendered as JPEG, invisible to text-based filters.</span></td>
+          <td><span class="tactic-name open">Image hashing, OCR</span><span class="tactic-detail">Filters learn to read images.</span></td>
+          <td>Dimension shift. Attackers need infrastructure to scale.</td>
+        </tr>
+        <tr>
+          <td><span class="era-label">Mid 2000s</span></td>
+          <td><span class="tactic-name">Botnets</span><span class="tactic-detail">Millions of compromised home PCs (Storm: ~50M machines).</span></td>
+          <td><span class="tactic-name closed">IP blacklists</span><span class="tactic-detail">Spamhaus, DNSBL block known bad IPs.</span></td>
+          <td>Identity-based: blocking by address, not content. Effective until IPs rotate.</td>
+        </tr>
+        <tr>
+          <td><span class="era-label">2008</span></td>
+          <td><span class="tactic-name none">Botnets (cont.)</span></td>
+          <td><span class="tactic-name other">McColo takedown</span><span class="tactic-detail">Upstream providers sever botnet backbone. Spam drops 70% overnight.</span></td>
+          <td>Physical enforcement. Decisive but non-repeatable. Botnets decentralize and rebuild.</td>
+        </tr>
+        <tr>
+          <td><span class="era-label">~2009</span></td>
+          <td><span class="tactic-name">Decentralized botnets</span><span class="tactic-detail">Fast-flux networks rebuild within weeks. Volume returns to pre-McColo levels.</span></td>
+          <td><span class="tactic-name none">No structural countermeasure</span></td>
+          <td>Attackers seek legitimate cover. Infrastructure alone won't stop them.</td>
+        </tr>
+        <tr>
+          <td><span class="era-label">Late 2000s</span></td>
+          <td><span class="tactic-name">Disposable webmail accounts</span><span class="tactic-detail">Free accounts created at scale to send from trusted providers.</span></td>
+          <td><span class="tactic-name open">CAPTCHAs, risk-based authentication</span><span class="tactic-detail">Puzzles and behavioral checks block automated signup.</span></td>
+          <td>CAPTCHA farms bypassed the puzzles using outsourced labor, but the economics didn't scale. Attackers abandoned the approach.</td>
+        </tr>
+        <tr>
+          <td><span class="era-label">~2010</span></td>
+          <td><span class="tactic-name">Snowshoe spam</span><span class="tactic-detail">Low volume spread across thousands of IPs and domains to stay below thresholds.</span></td>
+          <td><span class="tactic-name closed">Reputation systems</span><span class="tactic-detail">Sender scoring based on domain age, volume patterns, engagement.</span></td>
+          <td>First retreat to identity. Reputation works, but sender identity remains forgeable.</td>
+        </tr>
+        <tr>
+          <td><span class="era-label">~2012</span></td>
+          <td><span class="tactic-name">Domain spoofing</span><span class="tactic-detail">Forging sender identity to bypass reputation systems.</span></td>
+          <td><span class="tactic-name closed">DMARC, DKIM, SPF</span><span class="tactic-detail">Authentication standards verify domain ownership.</span></td>
+          <td>Spoofing closed. Attackers don't forge identities; they manufacture compliant ones.</td>
+        </tr>
+        <tr>
+          <td><span class="era-label">~2013</span></td>
+          <td><span class="tactic-name">Graymail explosion, spam camouflaged as graymail</span><span class="tactic-detail">Legitimate bulk email floods the inbox. Spam hides inside it, indistinguishable from real promotions.</span></td>
+          <td><span class="tactic-name open">Gmail tabs, Focused inbox</span><span class="tactic-detail">Spatial sorting: Primary, Promotions, Social, Updates.</span></td>
+          <td>Sorting, not filtering. Google couldn't reliably tell them apart, so they separated the entire category.</td>
+        </tr>
+        <tr>
+          <td><span class="era-label">Mid 2010s</span></td>
+          <td><span class="tactic-name">Email warming, sequencing, domain rotation</span><span class="tactic-detail">Fake reputation built on properly authenticated domains.</span></td>
+          <td><span class="tactic-name closed">ML filters</span><span class="tactic-detail">Billions of signals: sender reputation, behavioral patterns, engagement data.</span></td>
+          <td>99.9% catch rate claimed. But camouflage is now indistinguishable from legitimacy.</td>
+        </tr>
+        <tr>
+          <td><span class="era-label">~2021</span></td>
+          <td><span class="tactic-name">Manufactured identity on authenticated domains</span><span class="tactic-detail">Warming pools, aged domains, clean sending history — all compliant.</span></td>
+          <td><span class="tactic-name closed">BIMI / VMC</span><span class="tactic-detail">Verified Mark Certificates require trademark and financial stake to display brand logo.</span></td>
+          <td>Hardest identity gate yet. But excludes anyone without a trademark.</td>
+        </tr>
+        <tr>
+          <td><span class="era-label">Present</span></td>
+          <td><span class="tactic-name">LLM-generated outreach</span><span class="tactic-detail">Infinite linguistic variation, indistinguishable from human writing.</span></td>
+          <td><span class="tactic-name open">AI-powered filters</span><span class="tactic-detail">Scanning for statistical signatures of automation.</span></td>
+          <td>AI vs. AI. One last open graph bet. Both sides at machine speed.</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr style="border: none; border-top: 1px solid #e5e5e5; margin: 24px 0 20px 0;">
+    <div class="patterns-title">Patterns across the table</div>
+    <div class="patterns-text">
+      <p><strong style="color: #1a1a1a;">The Dimension Shift.</strong> Defensive victories in one dimension (e.g., Bayesian text filtering in 2002) do not accumulate; they merely force the attacker to abandon the dimension entirely and move to another, such as image-only spam (2004) or infrastructure-heavy botnets (2008).</p>
+      <p><strong style="color: #1a1a1a;">Infrastructure vs. Logic.</strong> Physical enforcement — like the 1998 relay closures or the 2008 McColo takedown — produces massive, overnight drops in volume (70%), but these wins are non-repeatable as attackers decentralize and rebuild more resilient systems like fast-flux networks.</p>
+      <p><strong style="color: #1a1a1a;">The 2013 Tactical Surrender.</strong> The introduction of Gmail Tabs marked the point where Google couldn't reliably tell them apart, shifting the strategy from filtering (deleting the bad) to spatial sorting (hiding the noisy), effectively admitting that spam and legitimate bulk email had become functionally identical.</p>
+      <p><strong style="color: #1a1a1a;">Escalating Proof of Stake.</strong> As sender identity became forgeable (2010) and then manufactured (2021), defenders moved from simple technical checks (SPF/DKIM) to high-barrier identity gates like BIMI, which require a registered trademark and a financial stake just to display a brand logo.</p>
+      <p><strong style="color: #1a1a1a;">The Closing Canyon.</strong> The present era of LLM-generated outreach represents a return to the open graph, but with infinite linguistic variation that collapses the statistical gap between junk and legitimacy, forcing a high-speed AI vs. AI simulation of human intent.</p>
+    </div>
+  </div>
+</div>
+
+
+<style>
+.co-footnotes {
+  font-size: 0.85em;
+  color: #777;
+  margin-top: 2.5rem;
+  line-height: 1.55;
+}
+.co-footnotes strong {
+  color: #666;
+}
+</style>
+
+<div class="co-footnotes">
+<strong>Footnotes</strong>
+
+<p>¹ Lapworthella belonged to the tommotiids, an extinct group of early Cambrian invertebrates on the stem lineage leading to brachiopods. Articulated fossils of the related camenellan Wufengella, from the Chengjiang Biota of China, show a free-living, dorsally armored, worm-like animal. See Guo et al., <em>Current Biology</em> 32 (2022).
+
+<p>² Bicknell, R.D.C., Campione, N.E., Brock, G.A., and Paterson, J.R., "Adaptive responses in Cambrian predator and prey highlight the arms race during the rise of animals," <em>Current Biology</em> 35 (2025), 882–888.
+
+<p>³ At ca. 517 million years old, this is the earliest known microevolutionary arms race in the fossil record. Older drilling predation exists, notably in the Ediacaran Cloudina, but no Precambrian record shows adaptive response in both predator and prey.
+
+<p>⁴ Lapworthella fasciculata sclerites under scanning electron microscope, from the Second Plain Creek Member of the Mernmena Formation, Flinders Ranges, South Australia. Sclerites showing circular to subcircular holes made by a perforating predator. Scale bars represent 200 μm. From Bicknell et al., <em>Current Biology</em> 35 (2025).
+
+<p>⁵ The asymmetry is known as the "life-dinner principle," coined by Dawkins and Krebs (1979): the rabbit runs for its life, the fox runs for its dinner. The prey's stakes are higher per encounter, which should favor stronger selection on the defensive side. In practice, predators face cumulative pressure across many encounters, which narrows the gap.
+
+<p>⁶ The vulnerability was not a flaw in implementation but a feature of design. Sendmail, the dominant mail transfer agent through the 1990s, shipped with open relaying enabled by default. Any machine on the internet could connect and ask it to forward mail to any other address. This made sense on the ARPANET, where every node was a known colleague. On the open internet, it was an unlocked door with a sign that read "please come in."
+
+<p>⁷ Estimates of Storm's size ranged from one million to fifty million compromised machines, depending on the methodology and the moment of measurement. The botnet was designed to resist census: it used peer-to-peer communication rather than a central server, making it difficult to count nodes from the outside. The fifty million figure, widely cited in press coverage, likely represents a cumulative total of machines infected over the botnet's lifetime rather than a simultaneous headcount.
+
+<p>⁸ On November 11, 2008, Global Crossing and Hurricane Electric severed McColo's connections after security researchers presented evidence that the hosting provider served as the command-and-control backbone for several major botnets, including Srizbi, Rustock, and Mega-D. The 70% figure was reported by multiple monitoring services, including MessageLabs and IronPort. For a full account, see "Mowing the Lawn" in this series.
+
+<p>⁹ Graham's essay "A Plan for Spam" (August 2002) did not invent Bayesian classification, but it was the first to demonstrate its effectiveness against spam in a way that practitioners could implement. Within months, open-source spam filters based on his approach were in widespread use. The essay arguably did more to shape the modern spam filter than any single piece of academic research.
+
+<p>¹⁰ Services like DeCaptcher and AntiCaptcha charged $1–3 per thousand CAPTCHAs solved. Workers, mostly in Bangladesh, Vietnam, and Indonesia, earned fractions of a cent per puzzle. Some operations disguised the work as free game access: users believed they were playing a puzzle game while unknowingly solving CAPTCHAs for spammers.
+
+<p>¹¹ A snowshoe spreads the wearer's weight so they don't break through the snow. Snowshoe spammers spread volume across thousands of IPs and domains so no single sender broke through the detection threshold.
+
+<p>¹² When the cost of sending is not borne by the sender, volume is constrained only by the recipient's attention. This is the classic structure of a negative externality: the price signal that would otherwise limit output is absent. For a detailed estimate of the costs imposed on recipients, see "The Cost of Cold Email" in this series.
+
+<p>¹³ Security researchers call this the defender's dilemma: the attacker needs to find one path in; the defender must close them all. When the space of possible attacks is not fixed but open-ended, the advantage compounds. Each defensive victory addresses one tactic. Each new tactic opens an unexplored front. See Schneier, "The Defender's Dilemma" in <em>Liars and Outliers</em> (2012).
+
+<p>¹⁴ Von Neumann's minimax theorem (1928) proves that in a finite two-player zero-sum game, there exists an optimal strategy for each player that minimizes their maximum possible loss. The key insight is that this strategy does not depend on predicting the opponent's behavior. It assumes the opponent will play optimally against you. Strictly, the theorem applies to games with fixed strategy sets. The email case extends the logic to an open-ended space, where the attacker can redefine the game after each round, which is why the defender's optimal response in one round carries no value into the next. The original paper is "Zur Theorie der Gesellschaftsspiele," <em>Mathematische Annalen</em> 100 (1928). The full framework was developed in Von Neumann and Morgenstern, <em>Theory of Games and Economic Behavior</em> (1944).
+
+</div>

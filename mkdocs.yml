@@ -19,7 +19,7 @@ nav:
       # - "Parasitic Sales": posts/parasitic-sales.md
       # - "Degrees of Clean": posts/degrees-of-clean.md 
       - "The Day of the Blast": posts/the-day-of-the-blast.md
-      - "The Red Queen": posts/the-red-queen.md
+      #- "The Red Queen": posts/the-red-queen.md
       # - "Praxos vs. Cleanthes": posts/praxos-vs-cleanthes.md
       - "The Gospel of Growth": posts/the-gospel-of-growth.md
       - "Explainer: Email Warming": posts/email-warming.md
@@ -30,6 +30,7 @@ nav:
       - "From Blacklists to Black Boxes": posts/from-blacklists-to-black-boxes.md
       - "Two Skulls": posts/two-skulls.md
       - "Coal Panic": posts/coal-panic.md
+      - "Beyond the Red Queen": posts/beyond-the-red-queen.md
       #- "The Coal Question": posts/the-coal-question.md
       #- "The Cost of Cold Email (Part II)": posts/the-cost-of-cold-email-part-2.md
       
