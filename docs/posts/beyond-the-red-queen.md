@@ -74,7 +74,7 @@ In biology, the space of possible adaptations is constrained by history and expl
 
 <!-- IMAGE: Viking blowing shell horn -->
 <div style="text-align: center; margin: 2rem 0 0.5rem 0;">
-  <img src="../../assets/viking.png" alt="Viking blowing shell horn on cliff of shells — Oksana Drachkovska" style="max-width: 70%; height: auto; border-radius: 6px;">
+  <img src="../../assets/Viking.png" alt="Viking blowing shell horn on cliff of shells — Oksana Drachkovska" style="max-width: 70%; height: auto; border-radius: 6px;">
 </div>
 
 <p style="margin-top: 1.5rem;"><strong>The Gambler's Advantage</strong></p>
