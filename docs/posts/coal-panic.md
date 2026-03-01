@@ -278,7 +278,7 @@ Anyhow, everyone's cold emailing now, so you gotta do it really well or you get 
 
 He nodded. Someone at the table flagged the bartender for another round.
 
-"And the reason none of this ever slowed down, the reason nobody ever saved any of the efficiency, is that the costs land on someone else. You pay for Apollo. The VP whose coffee break was just ruined cleaning up her inbox pays for everything else. There's no brake in the system. You never feel the cost of your own volume."
+"And the reason none of this ever slowed down, the reason nobody ever saved any of the efficiency, is that the costs land on someone else. You pay for Apollo. The VP whose coffee break just got swallowed by her inbox pays for everything else. There's no brake in the system. You never feel the cost of your own volume."
 
 "So you're saying the cost of sending is fully externalized to the recipient, which brings the sender's marginal cost to near zero, price elasticity goes through the roof, and there's no signal left to constrain volume."¹⁵
 
