@@ -14,7 +14,8 @@ extra_css:
 nav:
   - "": index.md
   - Drafts:
-      - "Clean Outbound?": posts/clean-outbound.md 
+      - "Prelude: The Irreducible Minimum": posts/the-irreducible-minimum.md
+      #- "Clean Outbound?": posts/clean-outbound.md 
       # - "Outbound is Dirty": posts/outbound-is-dirty.md
       # - "Parasitic Sales": posts/parasitic-sales.md
       # - "Degrees of Clean": posts/degrees-of-clean.md 

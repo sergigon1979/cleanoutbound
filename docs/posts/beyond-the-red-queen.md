@@ -7,11 +7,6 @@ tags: [spam, filtering, arms-race, evolution, game-theory, Red-Queen, Von-Neuman
 
 # Beyond the Red Queen
 
-<!-- TODO: subtitle -->
-
-<!--
-<span style="font-size: 0.65rem; color: #888;">Published: XXXX XX, 2026</span>
--->
 <p style="margin-top: 1.5rem;"><strong>Why crabs and clams reached a stalemate but spam and filters never did</strong></p>
 
 <span style="color: #777;">
@@ -71,11 +66,6 @@ Before 2002, spam filters were static: keyword blacklists, header checks, rule s
 Spammers responded by rendering their payload as a JPEG. Graham's filter, which read words, saw nothing. When filters learned to read images, attackers moved to botnets. When botnets were shut down, they moved to disposable accounts and snowshoe distribution.¹¹ Each time, the abandoned tactic stayed defeated. The attacker simply left for a dimension the defense had never considered.
 
 In biology, the space of possible adaptations is constrained by history and explored slowly. In email, the attacker can jump to any dimension at any time. Blocking one tactic does not narrow the attacker's future options. The space is open-ended and recombinable. In evolution, closing one path constrains the organism. Here, it merely redirects. Defensive success in one dimension buys nothing in the next.¹³
-
-<!-- IMAGE: Viking blowing shell horn -->
-<div style="text-align: center; margin: 2rem 0 0.5rem 0;">
-  <img src="../../assets/Viking.png" alt="Viking blowing shell horn on cliff of shells — Oksana Drachkovska" style="max-width: 70%; height: auto; border-radius: 6px;">
-</div>
 
 <p style="margin-top: 1.5rem;"><strong>The Gambler's Advantage</strong></p>
 
@@ -636,6 +626,10 @@ It is approaching fast.
   </div>
 </div>
 
+<!-- IMAGE: Viking blowing shell horn -->
+<div style="text-align: center; margin: 2rem 0 0.5rem 0;">
+  <img src="../../assets/Viking.png" alt="Viking blowing shell horn on cliff of shells — Oksana Drachkovska" style="max-width: 70%; height: auto; border-radius: 6px;">
+</div>
 
 <style>
 .co-footnotes {
