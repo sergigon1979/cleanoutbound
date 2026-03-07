@@ -14,6 +14,7 @@ extra_css:
 nav:
   - "": index.md
   - Drafts:
+      - "Cast of Characters": posts/cast-of-characters.md
       - "Prelude: The Irreducible Minimum": posts/the-irreducible-minimum.md
       #- "Clean Outbound?": posts/clean-outbound.md 
       # - "Outbound is Dirty": posts/outbound-is-dirty.md
